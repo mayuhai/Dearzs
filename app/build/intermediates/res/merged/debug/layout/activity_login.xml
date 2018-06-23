@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_line_area"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimens_48"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dimens_6"
+        android:paddingLeft="@dimen/dimens_12"
+        android:paddingRight="@dimen/dimens_12" >
+
+        <ImageView
+            android:id="@+id/imvUNIcon"
+            android:layout_width="@dimen/dimens_20"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/un_icon" />
+
+        <EditText
+            android:id="@+id/edtUN"
+            style="@style/common_edt_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imvDelUNIcon"
+            android:layout_toRightOf="@+id/imvUNIcon"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|left"
+            android:hint="@string/input_login_un_hint"
+            android:inputType="phone" />
+
+        <ImageView
+            android:id="@+id/imvDelUNIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/del_icon"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_0_5"
+        android:layout_marginLeft="@dimen/dimens_8"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimens_48"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dimens_12"
+        android:paddingRight="@dimen/dimens_12" >
+
+        <ImageView
+            android:id="@+id/imvPwdIcon"
+            android:layout_width="@dimen/dimens_20"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/pwd_icon" />
+
+        <EditText
+            android:id="@+id/edtPwd"
+            style="@style/common_edt_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imvPwdIcon"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|left"
+            android:hint="@string/input_pwd"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:id="@+id/linLayPwdRightMore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imvDelPwdIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/del_icon"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imvSeePwdIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/pwd_show"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--<View style="@style/common_margin_line" />-->
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/btn_large_orange"
+        android:text="登录" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_12"
+        android:layout_marginRight="@dimen/dimens_12"
+        android:layout_marginTop="@dimen/dimens_20" >
+
+        <TextView
+            android:id="@+id/txtForgetPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:visibility="visible"
+            android:text="忘记密码?"
+            android:textColor="@color/gray"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:text="免费注册"
+            android:textColor="@color/gray"
+            android:textSize="14dp" />
+    </RelativeLayout>
+</LinearLayout>

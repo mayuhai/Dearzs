@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimens_40"
+    android:paddingTop="@dimen/dimens_40">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimens_16"
+            android:text="第二诊室 邀请有奖"
+            android:textColor="@color/black_2"
+            android:textSize="@dimen/dimens_14" />
+
+        <ImageView
+            android:id="@+id/iv_qr_code"
+            android:layout_width="@dimen/dimens_200"
+            android:layout_height="@dimen/dimens_200"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimens_24"
+            android:paddingTop="@dimen/dimens_48">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的邀请码："
+                android:textColor="@color/black_2"
+                android:textSize="@dimen/dimens_18" />
+
+            <TextView
+                android:id="@+id/tv_invite_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    "
+                android:textColor="@color/green"
+                android:textSize="@dimen/dimens_18" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_12"
+            android:layout_marginRight="@dimen/dimens_12"
+            android:background="@drawable/ic_qr_code_tips_bg"
+            android:text="患者通过扫描您的二维码或者在扫描网页输入您的邀请码，成功注册后，即可成为您的患者，就可以通过平台管理您的患者，这样更好的和患者互动，患者购买会诊或者家庭医生服务的时候就可以直接选择您下单"
+            android:textColor="@color/brown"
+            android:textSize="@dimen/dimens_12" />
+    </LinearLayout>
+</ScrollView>
+

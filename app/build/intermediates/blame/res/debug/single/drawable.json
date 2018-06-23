@@ -1,0 +1,1142 @@
+[
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/ic_add_input.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/ic_add_input.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_error_center_x.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_error_center_x.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_location_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wxcircle_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_at_button.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_flickr.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_flickr.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/icon_message.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/icon_message.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_pic.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_share_pic.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pinterest_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_pinterest_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_renren_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_location_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tumblr.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_tumblr.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_selectall_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_selectall_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_warning_circle.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_warning_circle.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_oauth_check_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_instagram_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_instagram_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_ynote_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_ynote_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_evernote_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_evernote_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/checkbox_point_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/checkbox_point_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin_circle.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_yixin_circle.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/confirm_bg.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/confirm_bg.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_yixin.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_linkedin_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_linkedin_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_green_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_green_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/icon_flash.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/icon_flash.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_light_bar_bg.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/page_progress_bar.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/page_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/wheel_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_camera_press.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_camera_press.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_linkedin.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_linkedin.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_twitter.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/confirm_btn_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/confirm_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/left_voice.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/left_voice.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_instagram_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_instagram_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_right_pressed.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_beauty_seekbar.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_beauty_seekbar.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_btn_camera.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_btn_camera.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_right_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_dack_orange_pressed_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_dack_orange_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/wheel_val.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/right_voice.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/right_voice.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_evernote.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_evernote.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/divider_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/divider_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/big_ratingbar_seletor.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/big_ratingbar_seletor.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang_dynamic.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_laiwang_dynamic.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_btn_mute.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_btn_mute.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/common_transparent_view_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/common_transparent_view_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin_circle_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_yixin_circle_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_invite.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_invite.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_ynote.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_ynote.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_left_pressed.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_shape_solid_grey.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_gray_line_white_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_gray_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_share_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_share_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/home_rb_community.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/home_rb_community.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tx_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_fetch_image.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_foursquare_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_foursquare_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/icon_white_drawable.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/icon_white_drawable.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_at_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/dialog_btn_normal.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/dialog_btn_normal.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_refersh.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_black_translucent_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_black_translucent_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_douban_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sina_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/ic_voice_input.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/ic_voice_input.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qzone_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_grey.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_to_button.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/img_chat_white.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/img_chat_white.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_cancel_pressed.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_cancel_pressed.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pinterest.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_pinterest.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qq_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_green_line_light_green_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_green_line_light_green_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rectangle_gray_line_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rectangle_gray_line_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_cancel.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_cancel.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_alipay.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_alipay.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_action_back_selected.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_login.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/icon_beauty_confirm_btn.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/icon_beauty_confirm_btn.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/circle_blue_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/circle_blue_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/mic_switch.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/mic_switch.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_white_blue.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qq_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_douban_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_orange_pressed_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_orange_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/icon_beauty_drawable.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/icon_beauty_drawable.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_gaudio_indicator_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_gaudio_indicator_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/camera_switch.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/camera_switch.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/notification_progress_drawable_green.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/notification_progress_drawable_green.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_back_bt.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/switch_radio_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/switch_radio_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_send.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_send.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_orange_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_orange_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/checkbox_radio_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/checkbox_radio_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pocket.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_pocket.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/ic_keyboard_input.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/ic_keyboard_input.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/top_line_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/top_line_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_btn_handfree_high.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_btn_handfree_high.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/home_rb_home.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/home_rb_home.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rectange_orange_bg_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rectange_orange_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/dialog_btn_style.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/dialog_btn_style.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_shareboard_item_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_gmail_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_gmail_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_nav_bar_bg.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_whatsapp.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_whatsapp.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pocket_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_pocket_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_grey_blue.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/home_rb_mine.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/home_rb_mine.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sina_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rectange_green_bg_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rectange_green_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_google.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_google.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_oauth_check.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_transparent_corner.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_back_bt_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/home_rb_text.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/home_rb_text.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_laiwang.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_blue.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UniversalVideoView/unspecified/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_follow_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sidebar_selected.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_green_line_white_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_green_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_off_mtrl.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_facebook_close.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_facebook_close.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_back_bt_selected.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_shape_solid_black.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_laiwang_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_screen_press.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_screen_press.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_line.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_line.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sidebar_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_red_blue.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_pressed.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_pressed.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_success_bow.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_success_bow.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang_dynamic_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_laiwang_dynamic_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_red.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_window_shadow_pad.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tumblr_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_tumblr_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_foursquare.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_foursquare.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_dack_orange_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_dack_orange_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_music.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_share_music.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_btn_hangup.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_btn_hangup.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/dialog_style.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/dialog_style.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/checkbox_selector_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/checkbox_selector_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sidebar_normal.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_gray_range_white_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_gray_range_white_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/release_dynamic_bg_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/release_dynamic_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/wheel_layout_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/wheel_layout_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/for_sale_my_re_public_backgroud.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/for_sale_my_re_public_backgroud.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/dialog_btn_pressed.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/dialog_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/home_rb_expert.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/home_rb_expert.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_voice_normal.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_voice_normal.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/ic_face_input.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/ic_face_input.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_more_members_item.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_more_members_item.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/dialog_bottom_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/dialog_bottom_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/titlebar_bottom_line_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/titlebar_bottom_line_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_search_icon.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_oauth_check_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_white.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/progressloading.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.jcodecraeer/xrecyclerview/1.2.7/res/drawable/progressloading.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_facebook.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_red_normal.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_red_normal.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_voice_pressed.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_voice_pressed.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sms_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sms_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/img_chat_black.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/img_chat_black.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_error_circle.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_error_circle.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rectangle_half_circle_green_line_white_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rectangle_half_circle_green_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wechat_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_dialog_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_cancel_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_cancel_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/bg_inputbox.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/bg_inputbox.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_action_back_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/middle_ratingbar_seletor.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/middle_ratingbar_seletor.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/round_white_bg_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/round_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_red_button_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_red_button_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qzone_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_blue_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_blue_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/round_rectange_dack_orange_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/round_rectange_dack_orange_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_green_line_deep_green_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_green_line_deep_green_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_bind_bg.9.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_button_right.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_yixin_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_action_back.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/gray_divider_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/gray_divider_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/bottom_line_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/bottom_line_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_right_bt_selected.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/layout_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/layout_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_follow_check.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_default_avatar.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_facebook_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_facebook_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_at_selected.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/round_rectange_red_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/round_rectange_red_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/gradient.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/gradient.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_renren_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/edit_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/edit_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UniversalVideoView/unspecified/res/drawable/scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_left_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_on_mtrl.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_right_bt_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rectangle_green_line_white_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rectangle_green_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_line_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_line_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/btn_par.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/btn_par.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_copy_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_copy_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_flickr_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_flickr_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/bg_voice_sending.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/bg_voice_sending.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/liveshow_item_dot.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/liveshow_item_dot.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/bg_bubble_gray.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/bg_bubble_gray.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wechat.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/uvv_progress_rotate.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UniversalVideoView/unspecified/res/drawable/uvv_progress_rotate.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rect_green_line_light_green_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rect_green_line_light_green_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sina_web_default.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/sina_web_default.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_right_bt.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_kakao.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_kakao.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_button_left.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wxcircle.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sms_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_sms_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/icon_like.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/icon_like.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_gmail_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_gmail_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_x_button.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/tab_bg.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/tab_bg.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_whatsapp_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_whatsapp_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_video.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_share_video.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_cut_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_cut_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_red_selected.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_red_selected.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_paste_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_paste_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/common_white_view_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/common_white_view_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_location_ic.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_blue_button_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_blue_button_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_success_circle.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_success_circle.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/rounded_rectangle_green_pressed_bg.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/rounded_rectangle_green_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_follow_on.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/bg_bubble_blue.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/bg_bubble_blue.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_login_normal.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_gray_button_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_gray_button_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/checkbox_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/common_item_gray_selector.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/common_item_gray_selector.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tx_off.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/animation_voice.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/animation_voice.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_login_pressed.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/sweet_alert_warning_sigh.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/sweet_alert_warning_sigh.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_kakao_gray.png",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/drawable/umeng_socialize_kakao_gray.png"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/drawable/qav_gaudio_share_movie_press.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/drawable/qav_gaudio_share_movie_press.xml"
+    }
+]

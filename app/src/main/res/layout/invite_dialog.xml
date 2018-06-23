@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="@dimen/dimens_10"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/host_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="host" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginTop="19dp"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:text="专家邀请您与他进行会诊"
+        android:textColor="#c8c8c8"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/invite_refuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_invite"
+            android:gravity="center"
+            android:text="拒绝"
+            android:textColor="#ff3333" />
+
+        <TextView
+            android:id="@+id/invite_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_invite"
+            android:gravity="center"
+            android:text="同意"
+            android:textColor="#ff3333" />
+    </LinearLayout>
+</LinearLayout>

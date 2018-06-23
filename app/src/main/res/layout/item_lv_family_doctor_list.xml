@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_6"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/dimens_12">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/iv_item_family_doctor"
+            android:layout_height="@dimen/dimens_165"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimens_12"
+            android:paddingTop="@dimen/dimens_12"
+            android:id="@+id/tv_item_family_doctor_title"
+            android:textColor="@color/black_2"
+            android:textSize="@dimen/dimens_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red_light"
+                        android:id="@+id/tv_item_family_doctor_cur_price"
+                        android:textSize="@dimen/dimens_20"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray_9"
+                        android:id="@+id/tv_item_family_doctor_org_price"
+                        android:layout_marginLeft="@dimen/dimens_6"
+                        android:textSize="@dimen/dimens_12"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_9"
+                    android:id="@+id/tv_item_family_doctor_buy_count"
+                    android:layout_marginTop="@dimen/dimens_4"
+                    android:textSize="@dimen/dimens_12"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="@dimen/dimens_96"
+                android:layout_height="@dimen/dimens_36"
+                android:id="@+id/btn_item_family_doctor"
+                android:gravity="center"
+                android:text="购买"
+                android:textSize="@dimen/dimens_16"
+                android:textColor="@color/white"
+                android:background="@drawable/rectange_orange_bg_selector"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange_txt"
+            android:paddingTop="@dimen/dimens_5"
+            android:id="@+id/tv_selected_family_doc_package"
+            android:textSize="@dimen/dimens_14"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

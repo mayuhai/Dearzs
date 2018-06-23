@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jcodecraeer.xrecyclerview.XRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/payments_balance_list"
+    android:background="@color/content_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@color/line"
+    android:dividerHeight="@dimen/dimens_5"
+    android:listSelector="@drawable/common_white_view_selector">
+</com.jcodecraeer.xrecyclerview.XRecyclerView>

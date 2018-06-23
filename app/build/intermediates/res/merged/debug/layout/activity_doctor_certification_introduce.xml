@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_line_area"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_6"
+        android:padding="@dimen/dimens_16"
+        android:background="@color/content_bg"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dimens_16"
+        android:lineSpacingExtra="@dimen/dimens_5"
+        android:textColor="@color/red_light"
+        android:textSize="@dimen/dimens_12"
+        android:text="*请上传您手持工牌或职业证书的照片，并确保照片上的五官和信息资料都清晰可见，执业证书需上传第一，二两页" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/dimens_8"
+        android:paddingBottom="@dimen/dimens_16"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/dimens_0"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_2"
+            android:textSize="@dimen/dimens_16"
+            android:text="请上传您的证件照"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="@dimen/dimens_80"
+            android:layout_height="@dimen/dimens_24"
+            android:textSize="@dimen/dimens_12"
+            android:background="@drawable/rounded_rectangle_green_line_white_bg"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:id="@+id/view_sample_photo"
+            android:text="查看示例" />
+    </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_76"
+            android:id="@+id/doctor_certification_recylerview"
+            android:padding="@dimen/dimens_0"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_44"
+        android:layout_marginTop="@dimen/dimens_12"
+        android:layout_marginLeft="@dimen/dimens_16"
+        android:layout_marginRight="@dimen/dimens_16"
+        android:background="@drawable/rectange_green_bg_selector"
+        android:id="@+id/bt_submit"
+        android:textSize="@dimen/dimens_16"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/dimens_20"
+        android:text="提交" />
+
+</LinearLayout>
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/doctor_forum_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_4"
+        android:layout_marginRight="@dimen/dimens_4"
+        android:layout_marginBottom="@dimen/dimens_8"
+        android:background="@drawable/doctor_forum_list_bg"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_item_doctor_forum_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_126"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_divider_bg"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimens_4"
+                android:paddingRight="@dimen/dimens_4"
+                android:paddingTop="@dimen/dimens_6">
+
+                <TextView
+                    android:id="@+id/tv_item_doctor_forum_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimens_12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_doctor_forum_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimens_10" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimens_12"
+            android:paddingLeft="@dimen/dimens_4"
+            android:paddingRight="@dimen/dimens_4"
+            android:paddingTop="@dimen/dimens_12">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item_doctor_forum_doctor_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_14" />
+
+                <TextView
+                    android:id="@+id/tv_item_doctor_forum_doctor_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:paddingLeft="@dimen/dimens_4"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_3"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item_doctor_forum_doctor_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/gray_9"
+                    android:textSize="@dimen/dimens_12" />
+
+                <View
+                    android:layout_width="@dimen/dimens_1"
+                    android:layout_height="@dimen/dimens_12"
+                    android:layout_marginLeft="@dimen/dimens_8"
+                    android:layout_marginRight="@dimen/dimens_8"
+                    android:id="@+id/item_doctor_forum_line"
+                    android:visibility="gone"
+                    android:background="@color/gray_9" />
+
+                <TextView
+                    android:id="@+id/tv_item_doctor_forum_doctor_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/gray_9"
+                    android:textSize="@dimen/dimens_12" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

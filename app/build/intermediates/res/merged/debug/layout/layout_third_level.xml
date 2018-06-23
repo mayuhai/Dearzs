@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimens_48"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/third_level_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_6"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:background="@color/gray_line_area" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimens_42">
+
+        <CheckBox
+            android:id="@+id/node_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_12"
+            android:button="@drawable/checkbox_selector"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/picture_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimens_36"
+            android:src="@mipmap/ic_good_at_third_level_point" />
+
+        <TextView
+            android:id="@+id/node_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/picture_wrapper"
+            android:gravity="center_vertical"
+            android:textColor="@color/black_2"
+            android:textSize="@dimen/dimens_14" />
+
+        <View
+            android:id="@+id/third_level_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dimens_36"
+            android:background="@color/gray_line" />
+
+        <View
+            android:id="@+id/second_level_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dimens_24"
+            android:background="@color/gray_line" />
+    </RelativeLayout>
+</LinearLayout>

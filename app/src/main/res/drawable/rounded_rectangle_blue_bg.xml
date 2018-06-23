@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"><!-- android:shape="" 表示是圆角矩形还是椭圆等等 -->
+    <solid android:color="#3397f3" />
+    <!-- 背景颜色 -->
+
+    <!-- padding 表示内部空间距离背景图片内部边距 的距离 -->
+    <padding
+        android:bottom="3dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp" />
+
+    <stroke
+        android:width="0.5dp"
+        android:color="#3397f3" />
+    <!-- 图片边框属性 -->
+    <corners android:radius="10dp" />
+    <!-- 圆角的程度 -->
+
+    <gradient
+        android:angle="90"
+        android:centerColor="#3397f3"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="#3397f3"
+        android:startColor="#3397f3"
+        android:type="linear" />
+</shape>  

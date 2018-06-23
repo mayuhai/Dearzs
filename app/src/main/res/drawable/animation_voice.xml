@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/microphone1" android:duration="300" />
+    <item android:drawable="@mipmap/microphone2" android:duration="300" />
+    <item android:drawable="@mipmap/microphone3" android:duration="300" />
+    <item android:drawable="@mipmap/microphone4" android:duration="300" />
+    <item android:drawable="@mipmap/microphone5" android:duration="300" />
+</animation-list>

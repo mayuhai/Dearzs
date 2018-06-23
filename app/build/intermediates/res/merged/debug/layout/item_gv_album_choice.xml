@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimens_88"
+    android:orientation="horizontal"
+    android:background="@drawable/common_item_gray_selector"
+    android:padding="@dimen/dimens_15"
+    android:clickable="false">
+
+    <LinearLayout
+        android:id="@+id/item_album_iv_pic_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_album_iv_pic"
+            android:layout_width="@dimen/dimens_60"
+            android:layout_height="@dimen/dimens_60"
+            android:scaleType="fitXY"
+            android:layout_marginRight="@dimen/dimens_15"
+            android:src="@mipmap/pic_failure" />
+
+        <TextView
+            android:id="@+id/item_album_tv_folder_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="文件夹"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dimens_18" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_album_iv_arror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_arrow_right" />
+</RelativeLayout>

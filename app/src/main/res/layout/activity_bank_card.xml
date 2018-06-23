@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_line_area">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_6"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_8"
+            android:layout_marginRight="@dimen/dimens_8"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimens_15"
+                android:textColor="@color/gray_4"
+                android:text="持  卡  人:" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:id="@+id/et_bank_card_user_name"
+                android:background="@null"
+                android:hint="请输入名称"
+                android:maxLength="5"
+                android:inputType=""
+                style="@style/common_edt_account"
+                />
+
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:background="@color/gray_line_area"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_8"
+            android:layout_marginRight="@dimen/dimens_8"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimens_15"
+                android:textColor="@color/gray_4"
+                android:text="银行账号:" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:id="@+id/et_bank_card_user_number"
+                android:background="@null"
+                android:maxLength="20"
+                android:inputType="number"
+                android:hint="请输入银行卡账号"
+                style="@style/common_edt_account"/>
+
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:background="@color/gray_line_area"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_8"
+            android:layout_marginRight="@dimen/dimens_8"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimens_15"
+                android:textColor="@color/gray_4"
+                android:text="银行名称:" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:id="@+id/et_bank_card_back_name"
+                android:background="@null"
+                android:maxLength="30"
+                android:hint="请输入银行名称"
+                style="@style/common_edt_account"/>
+
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:background="@color/gray_line_area"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_8"
+            android:layout_marginRight="@dimen/dimens_8"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimens_15"
+                android:textColor="@color/gray_4"
+                android:text="开  户  行:" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:id="@+id/et_bank_card_open_card_back_name"
+                android:background="@null"
+                android:hint="请输入银行开户行名称"
+                style="@style/common_edt_account"/>
+
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:background="@color/gray_line_area"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_48"
+        android:layout_marginBottom="@dimen/dimens_12"
+        android:background="@drawable/rounded_rectangle_green_bg"
+        android:layout_marginLeft="@dimen/dimens_12"
+        android:layout_marginRight="@dimen/dimens_12"
+        android:visibility="gone"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:id="@+id/btn_save"
+        android:textSize="@dimen/dimens_18"
+        android:layout_marginTop="@dimen/dimens_12"/>
+</LinearLayout>

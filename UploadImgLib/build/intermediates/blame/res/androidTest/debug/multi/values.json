@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/UploadImgLib/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 48,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/UploadImgLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 48,
+                        "endOffset": 249
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_line_area"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_6"
+        android:background="@color/content_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dimens_16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="医生认证后的特权"
+            android:textColor="@color/black_2"
+            android:textSize="@dimen/dimens_16" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimens_24">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/dimens_20"
+                    android:layout_height="@dimen/dimens_20">
+
+                    <com.dearzs.app.widget.CircleImageView
+                        android:layout_width="@dimen/dimens_20"
+                        android:layout_height="@dimen/dimens_20"
+                        android:src="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_14" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimens_6"
+                    android:textSize="@dimen/dimens_16"
+                    android:text="预约会诊"
+                    android:textColor="@color/green" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimens_28"
+                android:paddingTop="@dimen/dimens_6"
+                android:textSize="@dimen/dimens_14"
+                android:textColor="@color/gray_4"
+                android:text="会诊可以使自己的患者更好的专家沟通，同时也和专家面对面交流，使治疗流程更方便快捷" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimens_20">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/dimens_20"
+                    android:layout_height="@dimen/dimens_20">
+
+                    <com.dearzs.app.widget.CircleImageView
+                        android:layout_width="@dimen/dimens_20"
+                        android:layout_height="@dimen/dimens_20"
+                        android:src="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_14" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimens_16"
+                    android:layout_marginLeft="@dimen/dimens_6"
+                    android:text="转诊申请"
+                    android:textColor="@color/green" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimens_28"
+                android:paddingTop="@dimen/dimens_6"
+                android:textSize="@dimen/dimens_14"
+                android:textColor="@color/gray_4"
+                android:text="根据病情需要为患者申请转诊到合适的专家医生，突破号源限制，提高服务能力" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimens_20">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/dimens_20"
+                    android:layout_height="@dimen/dimens_20">
+
+                    <com.dearzs.app.widget.CircleImageView
+                        android:layout_width="@dimen/dimens_20"
+                        android:layout_height="@dimen/dimens_20"
+                        android:src="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_14" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimens_16"
+                    android:layout_marginLeft="@dimen/dimens_6"
+                    android:text="转诊接收"
+                    android:textColor="@color/green" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimens_28"
+                android:paddingTop="@dimen/dimens_6"
+                android:textSize="@dimen/dimens_14"
+                android:textColor="@color/gray_4"
+                android:text="对符合您的专业要求症状的转诊患者进行接收安排，提高工作效率" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimens_20">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/dimens_20"
+                    android:layout_height="@dimen/dimens_20">
+
+                    <com.dearzs.app.widget.CircleImageView
+                        android:layout_width="@dimen/dimens_20"
+                        android:layout_height="@dimen/dimens_20"
+                        android:src="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_14" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimens_16"
+                    android:layout_marginLeft="@dimen/dimens_6"
+                    android:text="诊间加号"
+                    android:textColor="@color/green" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimens_28"
+                android:paddingTop="@dimen/dimens_6"
+                android:paddingBottom="@dimen/dimens_4"
+                android:textSize="@dimen/dimens_14"
+                android:textColor="@color/gray_4"
+                android:text="为特殊需要的患者提供一对一的服务，增强患者服务的粘度和连续度，提高患者的满意度" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_to_certification"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_44"
+        android:layout_marginBottom="@dimen/dimens_20"
+        android:layout_marginTop="@dimen/dimens_15"
+        android:layout_marginLeft="@dimen/dimens_16"
+        android:layout_marginRight="@dimen/dimens_16"
+        android:background="@drawable/rectange_green_bg_selector"
+        android:text="马上认证"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimens_16" />
+</LinearLayout>
+

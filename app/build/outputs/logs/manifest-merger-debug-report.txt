@@ -1,0 +1,1059 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:2:1-554:12
+	package
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:7:5-73
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:7:22-70
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:10:5-76
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:11:5-81
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:12:5-84
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:12:22-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:13:5-68
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:14:5-75
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:15:5-79
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:16:5-76
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:32:5-76
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.WRITE_SETTINGSAPN_SETTINGS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:18:5-85
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:18:22-82
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:19:22-77
+uses-permission#android.permission.WRITE_APN_SETTINGS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:20:22-74
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:23:5-79
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:25:5-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:25:22-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:26:5-78
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:26:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:27:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:28:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:29:5-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:29:22-71
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:31:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:32:5-71
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:32:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:33:5-66
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:33:22-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:34:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:35:5-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:35:22-71
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:36:5-75
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:36:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:39:5-85
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:39:22-66
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:42:22-65
+uses-sdk
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:45:5-70
+MERGED from [com.jcodecraeer:xrecyclerview:1.2.7] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.jcodecraeer/xrecyclerview/1.2.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [Dearzs:CommonLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/CommonLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [Dearzs:UploadImgLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UploadImgLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [Dearzs:UmShare:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [Dearzs:TimLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/TimLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [Dearzs:ExpendableListViewlibrary:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/ExpendableListViewlibrary/unspecified/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [Dearzs:UniversalVideoView:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UniversalVideoView/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:45:15-68
+	android:targetSdkVersion
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:47:5-552:19
+MERGED from [com.jcodecraeer:xrecyclerview:1.2.7] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.jcodecraeer/xrecyclerview/1.2.7/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [Dearzs:CommonLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/CommonLib/unspecified/AndroidManifest.xml:11:5-14:19
+MERGED from [Dearzs:UploadImgLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UploadImgLib/unspecified/AndroidManifest.xml:11:5-20
+MERGED from [Dearzs:UmShare:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/AndroidManifest.xml:11:5-12:19
+MERGED from [Dearzs:TimLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/TimLib/unspecified/AndroidManifest.xml:11:5-18:19
+MERGED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:37:5-169:19
+MERGED from [Dearzs:ExpendableListViewlibrary:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/ExpendableListViewlibrary/unspecified/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [Dearzs:UniversalVideoView:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UniversalVideoView/unspecified/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:51:9-41
+	android:supportsRtl
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:52:9-35
+	android:hardwareAccelerated
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:49:9-44
+	android:icon
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:50:9-43
+	android:allowBackup
+		ADDED from [Dearzs:UmShare:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/AndroidManifest.xml:11:18-44
+	android:theme
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:53:9-45
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:48:9-54
+activity#com.dearzs.app.activity.StartActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:56:9-62:20
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:56:19-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:57:13-60:29
+action#android.intent.action.MAIN
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:59:27-74
+activity#com.dearzs.app.activity.HomeActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:65:9-71:75
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:70:13-49
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:69:13-44
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:68:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:71:13-72
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:67:13-63
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:66:13-64
+activity#com.dearzs.app.activity.AppGuideActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:74:9-80:75
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:79:13-49
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:78:13-44
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:77:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:80:13-72
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:76:13-63
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:75:13-68
+activity#com.dearzs.app.activity.MedicalConsultationWebViewActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:83:9-86:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:86:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:85:13-47
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:84:13-72
+activity#com.dearzs.app.activity.CommonWebViewActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:89:9-92:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:92:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:91:13-47
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:90:13-59
+activity#com.dearzs.app.activity.expert.ExpertDetailsActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:94:9-96:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:95:13-80
+activity#com.dearzs.app.activity.expert.MedicalRecordActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:98:9-101:84
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:100:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:101:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:99:13-80
+activity#com.dearzs.app.activity.expert.MedicalRecordHistoryListActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:103:9-106:84
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:105:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:106:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:104:13-91
+activity#com.dearzs.app.activity.expert.MedicalRecordModifyActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:108:9-110:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:109:13-86
+activity#com.dearzs.app.activity.LoginActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:112:9-114:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:113:13-65
+activity#com.dearzs.app.activity.ForgetPwdActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:116:9-118:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:117:13-55
+activity#com.dearzs.app.activity.FindPwdActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:120:9-122:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:121:13-53
+activity#com.dearzs.app.activity.RegisterActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:124:9-126:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:125:13-68
+activity#com.dearzs.app.activity.communtity.UploadPicActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:128:9-130:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:129:13-80
+activity#com.dearzs.app.activity.communtity.GalleryImageActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:132:9-134:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:133:13-83
+activity#com.dearzs.app.activity.communtity.ReleaseDynamicActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:136:9-138:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:138:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:137:13-85
+activity#com.dearzs.app.activity.communtity.ReleaseCommentActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:140:9-142:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:141:13-85
+activity#com.dearzs.app.activity.communtity.DynamicDetailsActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:144:9-146:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:145:13-85
+activity#com.dearzs.app.activity.communtity.AlbumActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:148:9-150:61
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:149:13-76
+activity#com.dearzs.app.activity.mine.DoctorCertificationActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:153:9-155:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:154:13-70
+activity#com.dearzs.app.activity.mine.MyFamilyDoctorActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:157:9-159:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:159:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:158:13-65
+activity#com.dearzs.app.activity.mine.FeedbackActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:162:9-165:58
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:164:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:165:13-55
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:163:13-59
+activity#com.dearzs.app.activity.mine.BankCardActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:168:9-171:58
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:170:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:171:13-55
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:169:13-59
+activity#com.dearzs.app.activity.mine.GoodAtActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:174:9-177:58
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:176:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:177:13-55
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:175:13-57
+activity#com.dearzs.app.activity.mine.PaymentsBalanceListActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:180:9-182:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:181:13-70
+activity#com.dearzs.app.activity.mine.PersionalDataActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:185:9-188:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:188:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:187:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:186:13-64
+activity#com.dearzs.app.activity.mine.DoctorCertificationIntroduceActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:191:9-193:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:193:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:192:13-79
+activity#com.dearzs.app.activity.mine.PatientLibraryActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:196:9-198:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:198:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:197:13-65
+activity#com.dearzs.app.activity.mine.PatientSearchActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:201:9-203:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:203:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:202:13-64
+activity#com.dearzs.app.activity.mine.PatientAddActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:206:9-208:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:207:13-61
+activity#com.dearzs.app.activity.mine.PatientDetailActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:211:9-213:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:212:13-64
+activity#com.dearzs.app.activity.mine.OrderDataListActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:216:9-218:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:218:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:217:13-64
+activity#com.dearzs.app.activity.mine.MyWalletActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:221:9-223:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:222:13-59
+activity#com.dearzs.app.activity.mine.VisitCostSettingActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:226:9-228:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:228:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:227:13-67
+activity#com.dearzs.app.activity.mine.VisitCostTimeSettingActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:229:9-231:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:231:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:230:13-71
+activity#com.dearzs.app.activity.mine.TransferSettingActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:234:9-236:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:236:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:235:13-66
+activity#com.dearzs.app.activity.mine.MyCollectActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:239:9-241:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:240:13-60
+activity#com.dearzs.app.activity.mine.AboutActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:244:9-246:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:246:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:245:13-56
+activity#com.dearzs.app.activity.mine.SettingActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:249:9-251:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:251:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:250:13-58
+activity#com.dearzs.app.activity.mine.QRCodeActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:254:9-256:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:256:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:255:13-57
+activity#com.dearzs.app.activity.mine.AgreementActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:259:9-261:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:261:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:260:13-60
+activity#com.dearzs.app.activity.home.AppointmentConsultationActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:264:9-266:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:266:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:265:13-74
+activity#com.dearzs.app.activity.home.SearchActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:269:9-271:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:271:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:270:13-57
+activity#com.dearzs.app.activity.home.ConsultationRoomActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:274:9-276:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:276:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:275:13-67
+activity#com.dearzs.app.activity.home.EditConsultResultActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:278:9-281:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:281:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:280:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:279:13-68
+activity#com.dearzs.app.activity.home.MedicalConsultationActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:284:9-286:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:286:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:285:13-70
+activity#com.dearzs.app.activity.home.MessageListActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:289:9-291:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:291:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:290:13-62
+activity#com.dearzs.app.activity.order.OrderConfirmActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:294:9-297:75
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:296:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:297:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:295:13-64
+activity#com.dearzs.app.activity.order.OrderPendingPaymentActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:300:9-302:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:302:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:301:13-71
+activity#com.dearzs.app.activity.order.OrderCompleteActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:305:9-307:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:307:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:306:13-65
+activity#com.dearzs.app.chat.ui.ChatActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:310:9-314:58
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:313:13-49
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:312:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:314:13-55
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:311:13-49
+activity#com.dearzs.app.chat.ui.LiveActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:317:9-322:58
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:320:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:321:13-47
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:319:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:322:13-55
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:318:13-49
+activity#com.dearzs.app.chat.ui.ImagePreviewActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:325:9-327:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:327:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:326:13-57
+activity#com.dearzs.app.chat.ui.ImageViewActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:330:9-332:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:332:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:331:13-54
+activity#com.dearzs.app.activity.mine.OrderDataDetailActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:335:9-337:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:337:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:336:13-66
+activity#com.dearzs.app.activity.forum.DoctorForumActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:340:9-342:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:342:13-49
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:341:13-63
+activity#com.dearzs.app.activity.forum.MediaPlayerActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:345:9-348:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:348:13-49
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:347:13-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:346:13-63
+activity#com.dearzs.app.activity.family.FamilyDocListActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:351:9-354:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:354:13-49
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:353:13-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:352:13-66
+activity#com.dearzs.app.activity.family.FamilyDocDetailActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:357:9-360:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:360:13-49
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:359:13-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:358:13-68
+activity#com.dearzs.app.activity.family.FamilyDocOrderConfirmActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:363:9-366:52
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:366:13-49
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:365:13-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:364:13-74
+meta-data#UMENG_APPKEY
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:369:9-371:56
+	android:value
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:371:13-53
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:370:13-40
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:374:9-386:20
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:376:13-44
+	android:noHistory
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:377:13-37
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:375:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:378:13-385:29
+action#android.intent.action.VIEW
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:379:17-69
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:379:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:381:17-76
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:381:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:382:17-78
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:382:27-75
+data
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:384:17-59
+	android:scheme
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:384:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:387:9-390:75
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:389:13-49
+	android:theme
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:390:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:388:13-69
+activity#com.dearzs.app.wxapi.WXEntryActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:392:9-397:75
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:396:13-49
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:395:13-36
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:394:13-74
+	android:theme
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:397:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:393:13-50
+activity#com.dearzs.app.WBShareActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:399:9-407:20
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:402:13-49
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:401:13-63
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:400:13-44
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:403:13-406:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:404:17-92
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:404:25-89
+activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:408:9-412:67
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:411:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:412:13-55
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:410:13-63
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:409:13-72
+service#com.sina.weibo.sdk.net.DownloadService
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:414:9-416:48
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:416:13-37
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:415:13-66
+activity#com.umeng.socialize.editorpage.ShareActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:418:9-425:71
+	android:excludeFromRecents
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:421:13-46
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:422:13-44
+	android:noHistory
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:423:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:425:13-68
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:420:13-57
+	android:theme
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:424:13-51
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:419:13-72
+activity#com.dearzs.app.wxapi.WXPayEntryActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:430:9-440:20
+	android:launchMode
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:433:13-43
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:432:13-36
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:431:13-67
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:435:13-439:29
+receiver#com.dearzs.app.AppRegister
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:442:9-446:20
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:442:19-46
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:443:13-445:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:444:17-100
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:444:25-97
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:450:9-454:59
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:454:13-47
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:453:13-37
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:452:13-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:451:13-60
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:455:9-459:59
+	android:screenOrientation
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:459:13-47
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:458:13-37
+	android:configChanges
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:457:13-74
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:456:13-60
+service#com.tencent.qalsdk.service.QalService
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:464:9-468:19
+	android:process
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:467:13-42
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:466:13-37
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:465:13-65
+service#com.tencent.qalsdk.service.QalAssistService
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:470:9-474:19
+	android:process
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:473:13-42
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:472:13-37
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:471:13-71
+receiver#com.tencent.qalsdk.QALBroadcastReceiver
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:476:9-482:20
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:478:13-37
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:477:13-67
+intent-filter#com.tencent.qalsdk.broadcast.qal
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:479:13-481:29
+action#com.tencent.qalsdk.broadcast.qal
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:480:17-75
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:480:25-72
+receiver#com.tencent.qalsdk.core.NetConnInfoCenter
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:484:9-498:20
+	android:process
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:485:71-100
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:485:13-69
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:486:13-488:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:487:17-79
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:487:25-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:489:13-491:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:490:17-79
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:490:25-76
+intent-filter#android.intent.action.TIME_SET
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:492:13-494:29
+action#android.intent.action.TIME_SET
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:493:17-73
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:493:25-70
+intent-filter#android.intent.action.TIMEZONE_CHANGED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:495:13-497:29
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:496:17-81
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:496:25-78
+activity#com.dearzs.app.jpush.JpushActivity
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:503:9-506:20
+	android:theme
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:505:13-72
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:504:13-62
+receiver#com.dearzs.app.jpush.MyReceiver
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:536:9-550:20
+	android:enabled
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:538:13-35
+	android:exported
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:539:13-37
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:537:13-59
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.dearzs.app
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:540:13-549:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:541:17-79
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:541:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:542:17-81
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:542:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:543:17-83
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:543:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:544:17-88
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:544:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:545:17-86
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:545:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:546:17-91
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:546:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:547:17-77
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:547:25-74
+category#com.dearzs.app
+ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:548:17-59
+	android:name
+		ADDED from /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/AndroidManifest.xml:548:27-56
+meta-data#com.tencent.rdm.uuid
+ADDED from [Dearzs:TimLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/TimLib/unspecified/AndroidManifest.xml:15:9-17:68
+	android:value
+		ADDED from [Dearzs:TimLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/TimLib/unspecified/AndroidManifest.xml:17:13-65
+	android:name
+		ADDED from [Dearzs:TimLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/TimLib/unspecified/AndroidManifest.xml:16:13-48
+permission#com.dearzs.app.permission.JPUSH_MESSAGE
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:12:9-63
+uses-permission#com.dearzs.app.permission.JPUSH_MESSAGE
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:34:5-89
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:34:22-86
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:64:9-67:20
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:65:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:70:9-81:20
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:73:13-37
+	android:configChanges
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:72:13-63
+	android:theme
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:74:13-60
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:71:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.dearzs.app
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:75:13-80:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:76:17-75
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:76:25-72
+service#cn.jpush.android.service.DownloadService
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:83:9-87:19
+	android:enabled
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:85:13-35
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:84:13-68
+service#cn.jpush.android.service.PushService
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:91:9-101:19
+	android:enabled
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:93:13-35
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:92:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:95:13-100:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:96:17-75
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:96:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:97:17-73
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:97:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:98:17-78
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:98:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:99:17-76
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:99:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:105:9-114:19
+	android:enabled
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:107:13-35
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:108:13-36
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:106:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.dearzs.app
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:109:13-113:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:110:17-80
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:110:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:117:9-136:20
+	android:enabled
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:119:13-35
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:120:13-37
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:118:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.dearzs.app
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:121:13-124:29
+	android:priority
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:121:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:122:17-94
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:122:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:125:13-128:29
+action#android.intent.action.USER_PRESENT
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:126:17-77
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:126:25-74
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:130:13-135:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:131:17-78
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:131:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:132:17-80
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:132:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:139:9-141:40
+	android:exported
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:141:13-37
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:140:13-66
+meta-data#JPUSH_CHANNEL
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:162:9-164:49
+	android:value
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:164:13-46
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:163:13-41
+meta-data#JPUSH_APPKEY
+ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:165:9-167:56
+	android:value
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:167:13-53
+	android:name
+		ADDED from [Dearzs:PushLib:unspecified] /Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/PushLib/unspecified/AndroidManifest.xml:166:13-40

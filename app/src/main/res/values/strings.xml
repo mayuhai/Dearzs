@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">第二诊室</string>
+    <string name="loading_failture">请检查您的网络</string>
+    <string name="click_refresh">点击屏幕   重新加载</string>
+
+    <string name="input_phone_hint">请输入您的手机号</string>
+    <string name="input_login_un_hint">请输入手机号</string>
+    <string name="password_hint">密码，6-16个英文字母或数字</string>
+    <string name="sms_hint">请输入短信校验码</string>
+    <string name="get_sms_code">获取校验码</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="input_sms_code">请输入短信校验码</string>
+    <string name="register">注册</string>
+    <string name="wait">请稍候...</string>
+    <string name="input_char_code">请输入图片验证码</string>
+    <string name="input_un">请输入账号</string>
+    <string name="input_new_pwd">请输入新密码</string>
+    <string name="input_new_repwd">请输入确认新密码</string>
+
+    <!-- 下载 -->
+    <string name="loading_content">正在获取内容</string>
+    <string name="sending_content">正在发送</string>
+    <string name="checked_net">请检测网络</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="request_error">数据请求失败</string>
+    <string name="downlode_error">下载被终止,请检查网络</string>
+    <string name="downlode_complete">下载完成</string>
+    <string name="download_news">下载</string>
+    <string name="downloading_news">正在下载，请稍后重试！</string>
+    <string name="no_sdcard">找不到SDCard</string>
+    <string name="download_news_title">正在更新软件</string>
+    <string name="cancell_download_news">取消下载</string>
+    <string name="check_fail">更新失败，请稍后重试！</string>
+    <string name="current_is_last">当前已是最新版本！</string>
+    <string name="download_fail">下载失败，请稍后再试！</string>
+    <string name="input_identity_card">请输入身份证号码</string>
+    <string name="identity_card">身份证号码:</string>
+    <string name="identity_card_tip">输入身份证号后，点击查询就搜索数据库是否有该患者信息</string>
+    <string name="query">查询</string>
+    <string name="add">添加</string>
+    <string name="name">姓名</string>
+    <string name="age">年龄</string>
+    <string name="phone">联系电话</string>
+    <string name="cardNO">证件号码</string>
+    <string name="address">居住地址</string>
+    <string name="input_address">请输入居住地址</string>
+    <string name="input_cardNO">请输入证件号码</string>
+    <string name="inut_name">请输入姓名</string>
+    <string name="gender">性别</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="app_tip">提示</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+
+    <string name="renzheng"><u>认证医生</u></string>
+
+    <string-array name="array_name">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <!-- chat activity -->
+    <string name="chat_image">图片</string>
+    <string name="chat_file">文件</string>
+    <string name="chat_photo">拍摄</string>
+    <string name="chat_video">小视频</string>
+    <string name="chat_face_video">视频</string>
+    <string name="chat_press_talk">按住 说话</string>
+    <string name="chat_release_send">松开 结束</string>
+    <string name="chat_up_finger">手指上滑，取消发送</string>
+    <string name="chat_audio_too_short">录音过短，请重试</string>
+    <string name="chat_video_too_short">录制过短，请重试</string>
+    <string name="chat_resend">重新发送</string>
+    <string name="chat_del">删除</string>
+    <string name="chat_save">保存</string>
+    <string name="chat_file_too_large">文件过大，发送失败</string>
+    <string name="chat_file_not_exist">文件不存在，发送失败</string>
+    <string name="chat_image_preview_title">图片预览</string>
+    <string name="chat_image_preview_send">发送</string>
+    <string name="chat_image_preview_load_err">图片加载失败</string>
+    <string name="chat_image_preview_ori">原图发送</string>
+
+    <!-- time -->
+    <string name="time_yesterday">昨天</string>
+    <string name="time_day">日</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+    <string name="time_more">99+</string>
+
+    <!-- message -->
+    <string name="summary_image">[图片]</string>
+    <string name="summary_voice">[语音]</string>
+
+    <string name="save_succ">保存成功</string>
+    <string name="save_fail">保存失败</string>
+    <string name="downloading">正在下载，请稍候</string>
+
+    <!-- contact fragment -->
+    <string name="public_group">公开群</string>
+    <string name="discuss_group">讨论组</string>
+    <string name="chatroom">聊天室</string>
+
+    <string name="empty_data_message">暂无数据</string>
+    <string name="error_message">服务端异常,获取数据失败!</string>
+    <string name="start_tip">共享优质医疗，保障你我健康</string>
+
+    <!-- msgadapter -->
+    <item type="id" name="tag_first"></item>
+    <item type="id" name="tag_second"></item>
+
+</resources>

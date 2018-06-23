@@ -1,0 +1,567 @@
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/design_bottom_sheet_dialog.xml #generated:17
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# view res/layout/design_layout_snackbar.xml #generated:18
+# view sw600dp-v13/res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/app_guide_layout.xml #generated:9
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:75
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:40
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:18
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/activity_doctor_certification_introduce.xml #generated:49
+# view res/layout/activity_modify_medical_record.xml #generated:128
+# view res/layout/activity_modify_medical_record.xml #generated:177
+# view res/layout/activity_modify_medical_record.xml #generated:227
+# view res/layout/activity_modify_medical_record.xml #generated:281
+# view res/layout/activity_modify_medical_record.xml #generated:330
+# view res/layout/activity_modify_medical_record.xml #generated:379
+# view res/layout/activity_release_dynamic.xml #generated:32
+# view res/layout/activity_upload_pic.xml #generated:1
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/activity_webview.xml #generated:30
+-keep class android.webkit.WebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:659
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:629
+-keep class cn.jpush.android.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:611
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:639
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:617
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:595
+-keep class cn.jpush.android.ui.PopWinActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:599
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:464
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:469
+-keep class com.alipay.sdk.auth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:455
+-keep class com.dearzs.app.AppRegister { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.dearzs.app.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:407
+-keep class com.dearzs.app.WBShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.dearzs.app.activity.AppGuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.dearzs.app.activity.CommonWebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.dearzs.app.activity.FindPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.dearzs.app.activity.ForgetPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.dearzs.app.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.dearzs.app.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.dearzs.app.activity.MedicalConsultationWebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.dearzs.app.activity.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.dearzs.app.activity.StartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.dearzs.app.activity.communtity.AlbumActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.dearzs.app.activity.communtity.DynamicDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.dearzs.app.activity.communtity.GalleryImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.dearzs.app.activity.communtity.ReleaseCommentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.dearzs.app.activity.communtity.ReleaseDynamicActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.dearzs.app.activity.communtity.UploadPicActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.dearzs.app.activity.expert.ExpertDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.dearzs.app.activity.expert.MedicalRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.dearzs.app.activity.expert.MedicalRecordHistoryListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.dearzs.app.activity.expert.MedicalRecordModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:365
+-keep class com.dearzs.app.activity.family.FamilyDocDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:359
+-keep class com.dearzs.app.activity.family.FamilyDocListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:371
+-keep class com.dearzs.app.activity.family.FamilyDocOrderConfirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:348
+-keep class com.dearzs.app.activity.forum.DoctorForumActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:353
+-keep class com.dearzs.app.activity.forum.MediaPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:272
+-keep class com.dearzs.app.activity.home.AppointmentConsultationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.dearzs.app.activity.home.ConsultationRoomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:286
+-keep class com.dearzs.app.activity.home.EditConsultResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:292
+-keep class com.dearzs.app.activity.home.MedicalConsultationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:297
+-keep class com.dearzs.app.activity.home.MessageListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:277
+-keep class com.dearzs.app.activity.home.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.dearzs.app.activity.mine.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class com.dearzs.app.activity.mine.AgreementActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.dearzs.app.activity.mine.BankCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.dearzs.app.activity.mine.DoctorCertificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.dearzs.app.activity.mine.DoctorCertificationIntroduceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.dearzs.app.activity.mine.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class com.dearzs.app.activity.mine.GoodAtActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.dearzs.app.activity.mine.MyCollectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.dearzs.app.activity.mine.MyFamilyDoctorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class com.dearzs.app.activity.mine.MyWalletActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:343
+-keep class com.dearzs.app.activity.mine.OrderDataDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.dearzs.app.activity.mine.OrderDataListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class com.dearzs.app.activity.mine.PatientAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:219
+-keep class com.dearzs.app.activity.mine.PatientDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.dearzs.app.activity.mine.PatientLibraryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.dearzs.app.activity.mine.PatientSearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.dearzs.app.activity.mine.PaymentsBalanceListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.dearzs.app.activity.mine.PersionalDataActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class com.dearzs.app.activity.mine.QRCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:257
+-keep class com.dearzs.app.activity.mine.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.dearzs.app.activity.mine.TransferSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.dearzs.app.activity.mine.VisitCostSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class com.dearzs.app.activity.mine.VisitCostTimeSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:313
+-keep class com.dearzs.app.activity.order.OrderCompleteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:302
+-keep class com.dearzs.app.activity.order.OrderConfirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:308
+-keep class com.dearzs.app.activity.order.OrderPendingPaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:318
+-keep class com.dearzs.app.chat.ui.ChatActivity { <init>(...); }
+
+# view res/layout/item_chatmsg.xml #generated:15
+-keep class com.dearzs.app.chat.ui.CustomTextView { <init>(...); }
+
+# view res/layout/activity_live.xml #generated:217
+-keep class com.dearzs.app.chat.ui.HeartLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:333
+-keep class com.dearzs.app.chat.ui.ImagePreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:338
+-keep class com.dearzs.app.chat.ui.ImageViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:325
+-keep class com.dearzs.app.chat.ui.LiveActivity { <init>(...); }
+
+# view res/layout/activity_chat.xml #generated:255
+-keep class com.dearzs.app.chat.ui.widget.ChatInput { <init>(...); }
+
+# view res/layout/activity_chat.xml #generated:149
+# view res/layout/head_up_layout.xml #generated:9
+# view res/layout/host_info_layout.xml #generated:7
+# view res/layout/item_lv_live_memberhead_list.xml #generated:15
+# view res/layout/item_message.xml #generated:31
+# view res/layout/members_item_layout.xml #generated:8
+-keep class com.dearzs.app.chat.ui.widget.CircleImageView { <init>(...); }
+
+# view res/layout/activity_chat.xml #generated:270
+-keep class com.dearzs.app.chat.ui.widget.VoiceSendingView { <init>(...); }
+
+# view AndroidManifest.xml #generated:520
+-keep class com.dearzs.app.jpush.JpushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:554
+-keep class com.dearzs.app.jpush.MyReceiver { <init>(...); }
+
+# view res/layout/wheel_view.xml #generated:46
+# view res/layout/wheel_view.xml #generated:53
+# view res/layout/wheel_view.xml #generated:60
+-keep class com.dearzs.app.wheel.test.WheelView { <init>(...); }
+
+# view res/layout/activity_chat.xml #generated:35
+# view res/layout/activity_doctor_certification.xml #generated:141
+# view res/layout/activity_doctor_certification.xml #generated:191
+# view res/layout/activity_doctor_certification.xml #generated:40
+# view res/layout/activity_doctor_certification.xml #generated:91
+# view res/layout/activity_edit_consult_record.xml #generated:28
+# view res/layout/activity_family_doc_order_confirm.xml #generated:98
+# view res/layout/activity_medical_record.xml #generated:27
+# view res/layout/activity_modify_medical_record.xml #generated:32
+# view res/layout/activity_order_complete.xml #generated:72
+# view res/layout/activity_order_confirm.xml #generated:30
+# view res/layout/activity_order_confirm.xml #generated:449
+# view res/layout/activity_order_detail.xml #generated:138
+# view res/layout/activity_order_detail.xml #generated:271
+# view res/layout/activity_patient_detail.xml #generated:36
+# view res/layout/activity_persional_data.xml #generated:36
+# view res/layout/custom_cell_layout_with_image.xml #generated:19
+# view res/layout/fragment_mine.xml #generated:36
+# view res/layout/item_lv_communtity_dynamic_list.xml #generated:18
+# view res/layout/item_lv_consult_room_list.xml #generated:126
+# view res/layout/item_lv_consult_room_list.xml #generated:199
+# view res/layout/item_lv_consult_room_list.xml #generated:266
+# view res/layout/item_lv_consult_room_list.xml #generated:36
+# view res/layout/item_lv_dynamic_comment.xml #generated:18
+# view res/layout/item_lv_expert_list.xml #generated:16
+# view res/layout/item_lv_lecture_comment.xml #generated:21
+# view res/layout/item_lv_medical_record_history_list.xml #generated:22
+# view res/layout/item_lv_message_list.xml #generated:19
+# view res/layout/item_lv_order_list_item.xml #generated:66
+# view res/layout/item_lv_patient_evaluation.xml #generated:18
+# view res/layout/item_lv_patient_library_list.xml #generated:33
+# view res/layout/item_message.xml #generated:80
+# view res/layout/lecture_recommend_headview_layout.xml #generated:16
+# view res/layout/view_expert_details_list_header_layout.xml #generated:21
+-keep class com.dearzs.app.widget.CircleImageView { <init>(...); }
+
+# view res/layout/activity_setting.xml #generated:14
+-keep class com.dearzs.app.widget.CustomCellSwitchView { <init>(...); }
+
+# view res/layout/activity_patient_add.xml #generated:123
+# view res/layout/activity_patient_add.xml #generated:78
+# view res/layout/activity_persional_data.xml #generated:112
+# view res/layout/activity_persional_data.xml #generated:132
+# view res/layout/activity_persional_data.xml #generated:145
+# view res/layout/activity_persional_data.xml #generated:158
+# view res/layout/activity_persional_data.xml #generated:171
+# view res/layout/activity_persional_data.xml #generated:184
+# view res/layout/activity_persional_data.xml #generated:197
+# view res/layout/activity_persional_data.xml #generated:210
+# view res/layout/activity_persional_data.xml #generated:48
+# view res/layout/activity_persional_data.xml #generated:60
+# view res/layout/activity_persional_data.xml #generated:73
+# view res/layout/activity_persional_data.xml #generated:86
+# view res/layout/activity_persional_data.xml #generated:99
+# view res/layout/activity_setting.xml #generated:102
+# view res/layout/activity_setting.xml #generated:24
+# view res/layout/activity_setting.xml #generated:37
+# view res/layout/activity_setting.xml #generated:50
+# view res/layout/activity_setting.xml #generated:63
+# view res/layout/activity_setting.xml #generated:76
+# view res/layout/activity_setting.xml #generated:89
+-keep class com.dearzs.app.widget.CustomCellView { <init>(...); }
+
+# view res/layout/activity_order_detail.xml #generated:102
+# view res/layout/activity_patient_detail.xml #generated:103
+# view res/layout/activity_patient_detail.xml #generated:121
+# view res/layout/activity_patient_detail.xml #generated:138
+# view res/layout/activity_visit_cost_setting.xml #generated:137
+# view res/layout/activity_visit_cost_setting.xml #generated:149
+# view res/layout/activity_visit_cost_setting.xml #generated:161
+# view res/layout/activity_visit_cost_setting.xml #generated:172
+# view res/layout/activity_visit_cost_setting.xml #generated:184
+# view res/layout/activity_visit_cost_setting.xml #generated:196
+# view res/layout/activity_visit_cost_setting.xml #generated:208
+# view res/layout/fragment_mine.xml #generated:116
+# view res/layout/fragment_mine.xml #generated:128
+# view res/layout/fragment_mine.xml #generated:140
+# view res/layout/fragment_mine.xml #generated:152
+# view res/layout/fragment_mine.xml #generated:164
+# view res/layout/fragment_mine.xml #generated:176
+# view res/layout/fragment_mine.xml #generated:188
+# view res/layout/fragment_mine.xml #generated:200
+# view res/layout/fragment_mine.xml #generated:212
+# view res/layout/fragment_mine.xml #generated:224
+-keep class com.dearzs.app.widget.CustomCellViewWithImage { <init>(...); }
+
+# view res/layout/activity_base.xml #generated:25
+# view res/layout/fragment_base.xml #generated:7
+-keep class com.dearzs.app.widget.ErrorLayoutView { <init>(...); }
+
+# view res/layout/activity_medical_record.xml #generated:239
+# view res/layout/activity_modify_medical_record.xml #generated:258
+# view res/layout/view_expert_details_list_header_layout.xml #generated:189
+-keep class com.dearzs.app.widget.FixGridLayout { <init>(...); }
+
+# view res/layout/activity_imageview.xml #generated:10
+-keep class com.dearzs.app.widget.FlipGallery { <init>(...); }
+
+# view res/layout/activity_live.xml #generated:94
+-keep class com.dearzs.app.widget.HorizontalListView { <init>(...); }
+
+# view res/layout/activity_order_detail.xml #generated:86
+-keep class com.dearzs.app.widget.LayoutSignTree { <init>(...); }
+
+# view res/layout/activity_edit_consult_record.xml #generated:9
+# view res/layout/activity_family_doc_order_confirm.xml #generated:9
+# view res/layout/activity_medical_record.xml #generated:9
+# view res/layout/activity_modify_medical_record.xml #generated:14
+# view res/layout/activity_order_confirm.xml #generated:9
+# view res/layout/activity_order_pending_payment.xml #generated:9
+-keep class com.dearzs.app.widget.MScrollView { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:6
+# view res/layout/activity_my_collection.xml #generated:16
+-keep class com.dearzs.app.widget.MViewPager { <init>(...); }
+
+# view res/layout/activity_doctor_forum.xml #generated:7
+# view res/layout/activity_message.xml #generated:12
+# view res/layout/activity_my_collection.xml #generated:11
+# view res/layout/activity_my_family_doctor.xml #generated:12
+# view res/layout/activity_patient_library.xml #generated:16
+# view res/layout/view_family_doctor_details_list_header_layout.xml #generated:42
+-keep class com.dearzs.app.widget.MyTabBar { <init>(...); }
+
+# view res/layout/activity_base_refresh.xml #generated:2
+# view res/layout/fragment_base_refresh.xml #generated:2
+-keep class com.dearzs.app.widget.RefreshLayout { <init>(...); }
+
+# view res/layout/gallary_adapter_image.xml #generated:8
+-keep class com.dearzs.app.widget.ScaleImageView { <init>(...); }
+
+# view res/layout/activity_patient_library.xml #generated:88
+-keep class com.dearzs.app.widget.SideBar { <init>(...); }
+
+# view res/layout/activity_base.xml #generated:8
+-keep class com.dearzs.app.widget.TitleBarView { <init>(...); }
+
+# view res/layout/item_gv_upload_pic_cus.xml #generated:1
+-keep class com.dearzs.app.widget.UploadPicCellView { <init>(...); }
+
+# view res/layout/item_gv_upload_pic_cus2.xml #generated:1
+-keep class com.dearzs.app.widget.UploadVehiclePicView { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:77
+-keep class com.dearzs.app.widget.sweetalert.SuccessTickView { <init>(...); }
+
+# view res/layout/fragment_home_flowview_layout.xml #generated:24
+-keep class com.dearzs.app.widget.viewflow.CircleFlowIndicator { <init>(...); }
+
+# view res/layout/fragment_home_flowview_layout.xml #generated:10
+-keep class com.dearzs.app.widget.viewflow.ViewFlow { <init>(...); }
+
+# view AndroidManifest.xml #generated:400
+-keep class com.dearzs.app.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:440
+-keep class com.dearzs.app.wxapi.WXPayEntryActivity { <init>(...); }
+
+# view res/layout/listview_header.xml #generated:59
+-keep class com.jcodecraeer.xrecyclerview.SimpleViewSwithcer { <init>(...); }
+
+# view res/layout/activity_appintment_consultation.xml #generated:224
+# view res/layout/activity_chat.xml #generated:261
+# view res/layout/activity_communtity.xml #generated:15
+# view res/layout/activity_consultation_room.xml #generated:7
+# view res/layout/activity_doctor_forum.xml #generated:19
+# view res/layout/activity_dynamic_details.xml #generated:16
+# view res/layout/activity_expert_details.xml #generated:31
+# view res/layout/activity_family_doc_order_confirm.xml #generated:233
+# view res/layout/activity_family_doctor_detail.xml #generated:13
+# view res/layout/activity_family_doctor_list.xml #generated:13
+# view res/layout/activity_media_player.xml #generated:36
+# view res/layout/activity_medical_consultation.xml #generated:7
+# view res/layout/activity_medical_record_history_list.xml #generated:2
+# view res/layout/activity_message.xml #generated:18
+# view res/layout/activity_my_family_doctor.xml #generated:18
+# view res/layout/activity_order.xml #generated:2
+# view res/layout/activity_payments_balance_list.xml #generated:2
+# view res/layout/activity_search.xml #generated:21
+# view res/layout/fragment_collection.xml #generated:7
+# view res/layout/item_lv_communtity_dynamic_list.xml #generated:91
+# view res/layout/lecture_recommend_headview_layout.xml #generated:145
+# view res/layout/view_family_doctor_details_list_header_layout.xml #generated:29
+-keep class com.jcodecraeer.xrecyclerview.XRecyclerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:417
+-keep class com.sina.weibo.sdk.component.WeiboSdkBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:423
+-keep class com.sina.weibo.sdk.net.DownloadService { <init>(...); }
+
+# view res/layout/gallery_layout.xml #generated:8
+-keep class com.sofoso.pin9pin.widget.MViewPager { <init>(...); }
+
+# view res/layout/qav_video_layer_ui.xml #generated:6
+-keep class com.tencent.av.opengl.ui.GLRootView { <init>(...); }
+
+# view AndroidManifest.xml #generated:395
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:491
+-keep class com.tencent.qalsdk.QALBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:499
+-keep class com.tencent.qalsdk.core.NetConnInfoCenter { <init>(...); }
+
+# view AndroidManifest.xml #generated:485
+-keep class com.tencent.qalsdk.service.QalAssistService { <init>(...); }
+
+# view AndroidManifest.xml #generated:479
+-keep class com.tencent.qalsdk.service.QalService { <init>(...); }
+
+# view AndroidManifest.xml #generated:382
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view res/layout/umeng_socialize_post_share.xml #generated:2
+# view sw550dp-large-v13/res/layout-sw550dp-large-v13/umeng_socialize_post_share.xml #generated:2
+-keep class com.umeng.socialize.editorpage.KeyboardListenRelativeLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:427
+-keep class com.umeng.socialize.editorpage.ShareActivity { <init>(...); }
+
+# view res/layout/activity_media_player.xml #generated:28
+-keep class com.universalvideoview.UniversalMediaController { <init>(...); }
+
+# view res/layout/activity_media_player.xml #generated:19
+-keep class com.universalvideoview.UniversalVideoView { <init>(...); }
+
+# onClick res/layout/activity_live.xml #generated:153
+# onClick res/layout/activity_live.xml #generated:39
+-keepclassmembers class * { *** onClick(...); }
+

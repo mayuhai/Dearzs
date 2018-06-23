@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:divideStyle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_10"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin_order_detail_scroll_layout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/tv_order_status_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_bg">
+
+                <RelativeLayout
+                    android:id="@+id/tv_order_status_layout_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_100"
+                    android:layout_alignParentTop="true">
+
+                    <TextView
+                        android:id="@+id/tv_order_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="@dimen/dimens_30"
+                        android:text="订单类型:"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_12" />
+
+                    <ImageView
+                        android:id="@+id/tv_order_type_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimens_4"
+                        android:layout_marginTop="@dimen/dimens_28"
+                        android:layout_toRightOf="@id/tv_order_type"
+                        android:src="@mipmap/ic_order_hui_tag" />
+
+                    <TextView
+                        android:id="@+id/tv_order_type_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimens_4"
+                        android:layout_marginTop="@dimen/dimens_30"
+                        android:layout_toRightOf="@id/tv_order_type_tag"
+                        android:text="预约会诊"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_12" />
+
+                    <TextView
+                        android:id="@+id/tv_order_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_order_type"
+                        android:layout_gravity="clip_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:text="等待会诊"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_22" />
+
+                    <ImageView
+                        android:id="@+id/iv_order_status_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/ic_order_wait_reply_tag" />
+                </RelativeLayout>
+
+                <com.dearzs.app.widget.LayoutSignTree
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/order_liucheng"
+                    android:layout_marginBottom="@dimen/dimens_10"
+                    android:layout_below="@+id/tv_order_status_layout_top">
+
+                </com.dearzs.app.widget.LayoutSignTree>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_medical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/red_light"
+                divideStyle:cIcon="@mipmap/ic_mine_wallet"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowIcon="false"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="查看病历"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <LinearLayout
+                android:id="@+id/ly_expert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/content_bg"
+                android:visibility="visible"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/content_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimens_12">
+
+                    <com.dearzs.app.widget.CircleImageView
+                        android:id="@+id/order_photo"
+                        android:layout_width="@dimen/dimens_72"
+                        android:layout_height="@dimen/dimens_72" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/dimens_12">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/order_expert_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black_2"
+                                android:textSize="@dimen/dimens_16" />
+
+                            <TextView
+                                android:id="@+id/order_expert_job"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimens_6"
+                                android:layout_marginRight="@dimen/dimens_6"
+                                android:text="职称"
+                                android:textColor="@color/black_2"
+                                android:textSize="@dimen/dimens_14" />
+
+                            <ImageView
+                                android:id="@+id/order_can_zhuan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/dimens_4"
+                                android:layout_toRightOf="@id/order_complete_expert_name"
+                                android:src="@mipmap/ic_zhuan_tag"
+                                android:visibility="invisible" />
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="@dimen/dimens_8"
+                            android:paddingTop="@dimen/dimens_6">
+
+                            <TextView
+                                android:id="@+id/order_expert_hospital"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="left"
+                                android:text=""
+                                android:textColor="@color/gray_8" />
+
+                            <View
+                                android:id="@+id/order_split_line"
+                                android:layout_width="@dimen/dimens_1"
+                                android:layout_height="@dimen/dimens_16"
+                                android:layout_marginLeft="@dimen/dimens_6"
+                                android:layout_marginRight="@dimen/dimens_6"
+                                android:layout_toRightOf="@id/order_expert_hospital"
+                                android:background="@color/gray_8" />
+
+                            <TextView
+                                android:id="@+id/order_expert_department"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/order_split_line"
+                                android:text=""
+                                android:textColor="@color/gray_8" />
+
+                            <TextView
+                                android:id="@+id/tv_order_expert_fee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:text=""
+                                android:textColor="@color/black_2"
+                                android:textSize="@dimen/dimens_18" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/order_expert_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="预约时间："
+                            android:textColor="@color/gray_dack"
+                            android:textSize="@dimen/dimens_12" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray_line_area" />
+
+                <TextView
+                    android:id="@+id/tv_expert_reply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:lines="1"
+                    android:padding="@dimen/dimens_12"
+                    android:paddingLeft="@dimen/dimens_5"
+                    android:paddingRight="@dimen/dimens_5"
+                    android:text="专家回复:2016-09-10 16:00"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/dimens_12"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <!-- 患者 -->
+            <LinearLayout
+                android:id="@+id/ly_patient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/content_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimens_12"
+                android:visibility="gone">
+
+                <com.dearzs.app.widget.CircleImageView
+                    android:id="@+id/order_patient_photo"
+                    android:layout_width="@dimen/dimens_72"
+                    android:layout_height="@dimen/dimens_72" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dimens_12">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/order_patient_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text=""
+                            android:textColor="@color/black_2"
+                            android:textSize="@dimen/dimens_16" />
+
+                        <ImageView
+                            android:id="@+id/order_patient_sex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dimens_4"
+                            android:layout_toRightOf="@id/order_complete_expert_name"
+                            android:src="@mipmap/ic_male" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/dimens_8"
+                        android:paddingTop="@dimen/dimens_6">
+
+                        <TextView
+                            android:id="@+id/order_patient_age_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="left"
+                            android:text="年龄:"
+                            android:textColor="@color/gray_8" />
+
+                        <TextView
+                            android:id="@+id/order_patient_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/order_patient_age_title"
+                            android:text=""
+                            android:textColor="@color/gray_8" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/order_patient_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="预约时间："
+                        android:textColor="@color/gray_dack"
+                        android:textSize="@dimen/dimens_12" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/content_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/dimens_12">
+
+                <TextView
+                    android:id="@+id/tv_order_NO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="@dimen/dimens_4"
+                    android:text="订单号：888888888888"
+                    android:textColor="@color/gray_dack" />
+
+                <TextView
+                    android:id="@+id/tv_order_creat_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="@dimen/dimens_4"
+                    android:text="下单时间：2016-09-09 12：00"
+                    android:textColor="@color/gray_dack" />
+
+                <TextView
+                    android:id="@+id/tv_order_pay_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="@dimen/dimens_5"
+                    android:text="支付方式：支付宝支付"
+                    android:textColor="@color/gray_dack" />
+
+                <LinearLayout
+                    android:id="@+id/ly_order_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_order_fee_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:text="实付款："
+                        android:textColor="@color/gray_dack" />
+
+                    <TextView
+                        android:id="@+id/tv_order_fee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:text="￥600"
+                        android:textColor="@color/red_light"
+                        android:textSize="@dimen/dimens_18" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <LinearLayout
+                android:id="@+id/ly_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/content_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/dimens_12">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens_36"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_order_comment_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="评价"
+                        android:textColor="@color/gray_dack"
+                        android:textSize="@dimen/dimens_14" />
+
+                    <TextView
+                        android:id="@+id/tv_order_comment_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textColor="@color/gray_light"
+                        android:textSize="@dimen/dimens_11" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_1"
+                    android:background="@color/gray_line_area" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens_60"
+                    android:layout_marginTop="@dimen/dimens_5"
+                    android:orientation="vertical">
+
+                    <RatingBar
+                        android:id="@+id/comment_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:indeterminateOnly="false"
+                        android:isIndicator="true"
+                        android:maxHeight="@dimen/dimens_25"
+                        android:minHeight="@dimen/dimens_25"
+                        android:paddingTop="@dimen/dimens_10"
+                        android:progressDrawable="@drawable/middle_ratingbar_seletor"
+                        android:text="评分 ： 4.7"
+                        android:thumb="@null" />
+
+                    <TextView
+                        android:id="@+id/tv_order_comment_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="@dimen/dimens_5"
+                        android:text="腰不酸了腿不疼了，感谢医生的高超医术"
+                        android:textColor="@color/gray_dack"
+                        android:textSize="@dimen/dimens_18" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ly_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_50"
+        android:layout_alignParentBottom="true"
+        android:background="@color/content_bg"
+        android:paddingLeft="@dimen/dimens_12"
+        android:paddingRight="@dimen/dimens_12"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/bt_right"
+            android:layout_width="@dimen/dimens_100"
+            android:layout_height="@dimen/dimens_40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_white_bg_selector"
+            android:text="取消"
+            android:textColor="@color/green"
+            android:textSize="@dimen/dimens_16"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="@dimen/dimens_100"
+            android:layout_height="@dimen/dimens_40"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_10"
+            android:layout_toLeftOf="@id/bt_right"
+            android:background="@drawable/round_white_bg_selector"
+            android:text="去支付"
+            android:textColor="@color/green"
+            android:textSize="@dimen/dimens_16"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

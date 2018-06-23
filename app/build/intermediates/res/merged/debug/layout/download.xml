@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   	<TextView  
+   	    android:id="@+id/download_news_title"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/download_news_title"
+	    android:textSize="20sp"
+	    android:layout_gravity="center_horizontal"
+	    android:gravity="center"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentTop="true"
+	    />    
+    
+    <ProgressBar
+        android:id="@+id/downloadbar"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0px"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/download_news_title"        
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginRight="5dip"
+        android:progressDrawable="@drawable/notification_progress_drawable_green" />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center_horizontal"
+	    android:id="@+id/result"
+	    android:gravity="right"
+	    android:layout_below="@id/downloadbar" 
+	    />    
+	    
+	<Button  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:gravity="center"
+	    android:id="@+id/cancell_download"
+	    android:text="@string/cancell_download_news"
+	    android:layout_centerHorizontal="true"
+        android:layout_below="@id/result"   
+	    />    
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="trans_bg">#66000000</color>
+    <color name="content_bg">#ffffff</color>
+    <color name="gray_hint_color">#B7B7B7</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_bottom">#e1f2e8</color>
+    <color name="white_tran">#33ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_1">#333333</color>
+    <color name="black_2">#242424</color>
+    <color name="transparent_light">#10000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="line">#e5e5e5</color>
+    <color name="blue">#36ace0</color>
+    <color name="blue_1">#3db1e4</color>
+    <color name="blue_2">#339723</color>
+    <color name="blue_3">#1695ef</color>
+    <color name="blue_4">#a56be1</color>
+    <color name="gray">#707070</color>
+    <color name="gray_1">#999999</color>
+    <color name="gray_4">#646464</color>
+    <color name="gray_light">#aaaaaa</color>
+    <color name="gray_dack">#484848</color>
+    <color name="gray_6">#eeedf2</color>
+    <color name="gray_7">#727272</color>
+    <color name="gray_8">#888888</color>
+    <color name="gray_line_area">#eeeeee</color>
+    <color name="gray_line">#e0e0e0</color>
+    <color name="gray_2">#d3d3d3</color>
+    <color name="gray_3">#272727</color>
+    <color name="gray_9">#969696</color>
+    <color name="gray_10">#ececec</color>
+    <color name="gray_bg">#F0F0F0</color>
+    <color name="green">#0da052</color>
+    <color name="green_bg">#3cb776</color>
+    <color name="green_light">#71aa0f</color>
+    <color name="red_light">#ff462d</color>
+    <color name="orange_txt">#ffb515</color>
+    <color name="hint_txt_color">#cccccc</color>
+    <color name="order_wait_reply_color">#ff9606</color>
+    <color name="brown">#8d5d1c</color>
+
+    <color name="sweet_alert_float_transparent">#66000000</color>
+    <color name="sweet_alert_sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="sweet_alert_button_text_color">#FFFFFF</color>
+    <color name="sweet_alert_gray_btn_bg_color">#D0D0D0</color>
+    <color name="sweet_alert_gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="sweet_alert_blue_btn_bg_color">#AEDEF4</color>
+    <color name="sweet_alert_blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="sweet_alert_red_btn_bg_color">#DD6B55</color>
+    <color name="sweet_alert_red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="sweet_alert_error_stroke_color">#F27474</color>
+    <color name="sweet_alert_success_stroke_color">#A5DC86</color>
+    <color name="sweet_alert_trans_success_stroke_color">#33A5DC86</color>
+    <color name="sweet_alert_warning_stroke_color">#F8BB86</color>
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <!-- 分割线用色 -->
+    <color name="diver_color">#dedede</color>
+    <color name="sms_code">#297DCC</color>
+
+    <!--wheel -->
+    <color name="icon_bg">#FFCC33</color>
+    <color name="main_bg">#EEEEEE</color>
+    <color name="layout_bg">#0066CC</color>
+    <color name="textview_normal">#D0D0D0</color>
+    <color name="textview_pressed">#7175A4</color>
+
+    <color name="alpha">#00000000</color>
+    <color name="divider">#EEEEEE</color>
+
+    <color name="color_textview">#000000</color>
+    <color name="color_button">#ffffff</color>
+    <color name="color_button_swipe">#ffffff</color>
+    <color name="color_button_normal">#000000</color>
+    <!--wheel -->
+
+    <color name="colorSendName">#9966cc</color>
+    <color name="colorSendName1">#FF3163</color>
+    <color name="colorSendName2">#973365</color>
+    <color name="colorSendName3">#006599</color>
+    <color name="colorSendName4">#D07E44</color>
+    <color name="colorSendName5">#97BC87</color>
+    <color name="colorSendName6">#FFAE1F</color>
+    <color name="colorSendName7">#FF437D</color>
+
+    <color name= "commen_change_color">#DBEEF3</color>
+    <color name="title_bar_bg">#34333f</color>
+</resources>

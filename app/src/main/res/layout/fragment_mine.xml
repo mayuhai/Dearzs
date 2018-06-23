@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:divideStyle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+
+        <LinearLayout
+            android:id="@+id/mine_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimens_12"
+            android:paddingTop="@dimen/dimens_12">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimens_12"
+                android:paddingRight="@dimen/dimens_12">
+
+                <com.dearzs.app.widget.CircleImageView
+                    android:id="@+id/iv_persional_user_photo"
+                    android:layout_width="@dimen/dimens_72"
+                    android:layout_height="@dimen/dimens_72"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/dimens_12"
+                    android:src="@mipmap/un_icon"
+                    divideStyle:border_color="@color/white"
+                    divideStyle:border_width="@dimen/dimens_2" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimens_0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_persional_user_name"
+                            android:text="龙哥"
+                            android:textSize="@dimen/dimens_16"
+                            android:textColor="@color/black_2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimens_6"
+                            android:id="@+id/bt_doctor_certification"
+                            android:textSize="@dimen/dimens_14"
+                            android:typeface="sans"
+                            android:text="@string/renzheng"
+                            android:textColor="@color/blue_3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/dimens_2">
+
+                        <TextView
+                            android:id="@+id/tv_persional_level_tips"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="账户余额："
+                            android:textSize="@dimen/dimens_14"
+                            android:textColor="@color/black_2" />
+
+                        <TextView
+                            android:id="@+id/tv_persional_yue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/dimens_18"
+                            android:text="￥600"
+                            android:textColor="@color/red_light" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_arrow_right"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+
+        <LinearLayout
+            android:id="@+id/lv_persional_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_patient_library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cDesc=""
+                divideStyle:cIcon="@mipmap/ic_mine_patient"
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="患者库"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_user_order"
+                android:layout_width="match_parent"
+                divideStyle:cIcon="@mipmap/ic_mine_order"
+                android:layout_height="wrap_content"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="我的订单"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_user_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_wallet"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/red_light"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="我的钱包"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_visit_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_visit"
+                divideStyle:cDesc="300元/次"
+                divideStyle:cDescTextColor="@color/green"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="出诊设置"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_transfer_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_zhuanzhen"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/gray_9"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="转诊设置"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_home_doc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_home_doc"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="家庭医生"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_back_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_bank"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="我的银行卡"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_user_qr_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_qr_code"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="我的二维码"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_user_collection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_collect"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="我的关注"
+                divideStyle:cTitleTextColor="@color/black" />
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_persional_user_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_about"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="企业及产品"
+                divideStyle:cTitleTextColor="@color/black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_persional_logout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_36"
+            android:layout_marginBottom="@dimen/dimens_12"
+            android:layout_marginLeft="@dimen/dimens_12"
+            android:layout_marginRight="@dimen/dimens_12"
+            android:layout_marginTop="@dimen/dimens_12"
+            android:background="@drawable/round_rectange_dack_orange_selector"
+            android:text="退出登录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_16" />
+    </LinearLayout>
+</ScrollView>

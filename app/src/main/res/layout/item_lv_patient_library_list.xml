@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_cell_catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimens_32"
+        android:background="@color/gray_6"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:textColor="@color/black_2"
+        android:textSize="@dimen/dimens_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/custom_cell_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_56"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dimens_12"
+            android:paddingRight="@dimen/dimens_12">
+
+            <com.dearzs.app.widget.CircleImageView
+                android:id="@+id/item_iv_patient_pic"
+                android:layout_width="@dimen/dimens_32"
+                android:layout_height="@dimen/dimens_32" />
+
+            <TextView
+                android:id="@+id/item_iv_patient_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimens_12"
+                android:ellipsize="end"
+                android:maxLength="10"
+                android:maxWidth="@dimen/dimens_100"
+                android:singleLine="true"
+                android:text="张三"
+                android:textColor="@color/black_2"
+                android:textSize="@dimen/dimens_18" />
+
+            <ImageView
+                android:id="@+id/item_iv_patient_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens_6"
+                android:src="@mipmap/ic_female" />
+
+            <View
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:id="@+id/iv_patient_new_tag"
+                    android:src="@mipmap/ic_patient_list_new" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/custom_cell_tv_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:layout_marginLeft="@dimen/dimens_56"
+            android:background="@color/line" />
+    </LinearLayout>
+
+</LinearLayout>

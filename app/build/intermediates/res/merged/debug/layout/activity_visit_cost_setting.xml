@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:divideStyle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimens_10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <RelativeLayout
+                android:id="@+id/ly_visit_setting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:paddingLeft="@dimen/dimens_12"
+                android:paddingRight="@dimen/dimens_12">
+
+                <TextView
+                    android:id="@+id/tv_visit_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black_2"
+                    android:text="开始出诊"
+                    android:textSize="@dimen/font_size18" />
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/switch_radio_selector"
+                    android:button="@null"
+                    android:textColor="@color/red_light" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dimens_20"
+                    android:layout_toLeftOf="@+id/checkbox"
+                    android:text="出诊中"
+                    android:textSize="@dimen/font_size18" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <RelativeLayout
+                android:id="@+id/ly_visit_cost"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:paddingLeft="@dimen/dimens_12"
+                android:paddingRight="@dimen/dimens_12">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black_2"
+                    android:text="出诊费用"
+                    android:textSize="@dimen/font_size18" />
+
+
+                <EditText
+                    android:id="@+id/edt_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/dimens_10"
+                    android:layout_marginRight="@dimen/dimens_10"
+                    android:background="@android:color/transparent"
+                    android:hint="请输入会诊费用"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dimens_10"
+                    android:layout_alignParentRight="true"
+                    android:text="元/次"
+                    android:textSize="@dimen/font_size18" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens_48"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/dimens_12"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black_2"
+                    android:text="出诊时间"
+                    android:textSize="@dimen/font_size18" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_1"
+                    android:background="@color/gray_line_area" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cDescTextColor="@color/gray_9"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周一"
+                    divideStyle:cTitleTextColor="@color/black" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Tuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cDescTextColor="@color/gray_9"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周二"
+                    divideStyle:cTitleTextColor="@color/black" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周三"
+                    divideStyle:cTitleTextColor="@color/black" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Thursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cDescTextColor="@color/gray_9"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周四"
+                    divideStyle:cTitleTextColor="@color/black" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cDescTextColor="@color/gray_9"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周五"
+                    divideStyle:cTitleTextColor="@color/black" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Saturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cDescTextColor="@color/gray_9"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周六"
+                    divideStyle:cTitleTextColor="@color/black" />
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_Sunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc=""
+                    divideStyle:cDescTextColor="@color/gray_9"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cTitle="周日"
+                    divideStyle:cTitleTextColor="@color/black" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:layout_marginBottom="@dimen/dimens_12"
+                android:layout_marginTop="@dimen/dimens_12"
+                android:layout_marginLeft="@dimen/dimens_12"
+                android:layout_marginRight="@dimen/dimens_12"
+                android:background="@drawable/rectange_green_bg_selector"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:textSize="@dimen/dimens_16" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

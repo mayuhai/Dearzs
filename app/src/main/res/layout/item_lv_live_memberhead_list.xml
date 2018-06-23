@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimens_60"
+    android:background="@color/transparent"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/dimens_10"
+    android:paddingLeft="@dimen/dimens_10"
+    android:paddingTop="@dimen/dimens_10">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimens_40"
+        android:layout_height="@dimen/dimens_40">
+
+        <com.dearzs.app.chat.ui.widget.CircleImageView
+            android:id="@+id/iv_item_live_member_head"
+            android:layout_width="@dimen/dimens_40"
+            android:layout_height="@dimen/dimens_40"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_item_live_member_head_tag"
+            />
+    </RelativeLayout>
+</LinearLayout>

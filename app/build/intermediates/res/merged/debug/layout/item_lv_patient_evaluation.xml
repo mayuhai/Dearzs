@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_list_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimens_12"
+    android:paddingTop="@dimen/dimens_12">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.dearzs.app.widget.CircleImageView
+            android:id="@+id/item_patient_photo"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/dimens_44"
+            android:layout_height="@dimen/dimens_44" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/item_patient_photo"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimens_8"
+            android:paddingRight="@dimen/dimens_8">
+
+            <TextView
+                android:id="@+id/item_patient_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大长今"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/dimens_16" />
+
+            <RatingBar
+                android:id="@+id/item_patient_rating"
+                style="@style/middleRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_8"
+                android:text="aasdsadsa"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimens_16" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_patient_evaluation_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/dimens_11"
+            android:text="2016-06-12"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/dimens_16" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimens_52"
+        android:paddingRight="@dimen/dimens_12"
+        android:paddingTop="@dimen/dimens_8">
+
+        <TextView
+            android:id="@+id/item_patient_evaluation_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimens_12"
+            android:text="医术精湛"
+            android:textColor="@color/gray_4"
+            android:textSize="@dimen/dimens_12" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_1"
+            android:background="@color/line" />
+    </LinearLayout>
+
+</LinearLayout>

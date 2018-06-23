@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_payments_balance_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimens_12"
+        >
+
+        <ImageView
+            android:id="@+id/iv_item_cost_img"
+            android:layout_width="@dimen/dimens_20"
+            android:layout_height="@dimen/dimens_20"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimens_0"
+            android:layout_height="@dimen/dimens_40"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimens_8">
+
+            <TextView
+                android:id="@+id/tv_cost_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="会诊花费"
+                android:textColor="@color/gray_dack"
+                android:textSize="@dimen/dimens_14" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_7"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_cost_time"
+                    android:layout_width="@dimen/dimens_0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1分钟前"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/dimens_12" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_cost_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:minWidth="@dimen/dimens_44"
+            android:paddingLeft="@dimen/dimens_12"
+            android:text="1000"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/dimens_12" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_0_5"
+        android:background="@color/line"/>
+</LinearLayout>

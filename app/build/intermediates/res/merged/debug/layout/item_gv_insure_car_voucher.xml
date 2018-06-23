@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_car_voucher_layout_pic"
+        android:layout_width="@dimen/dimens_72"
+        android:layout_height="@dimen/dimens_72">
+
+        <ImageView
+            android:id="@+id/item_car_voucher_iv_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_release_img_add" />
+
+        <ImageView
+            android:id="@+id/item_car_voucher_iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/dimens_5"
+            android:src="@mipmap/ic_car_voucher_close" />
+
+        <TextView
+            android:id="@+id/item_car_voucher_tv_fail_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/car_upload_fail_bg"
+            android:gravity="center"
+            android:text="上传失败"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_10"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/item_car_voucher_tv_ing_tip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:paddingBottom="@dimen/dimens_4"
+            android:gravity="center"
+            android:text="上传中..."
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_10"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_car_voucher_tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_5"
+        android:gravity="center"
+        android:text="行驶证图片"
+        android:visibility="gone"
+        android:textColor="@color/gray_1"
+        android:textSize="@dimen/dimens_12" />
+
+</LinearLayout>

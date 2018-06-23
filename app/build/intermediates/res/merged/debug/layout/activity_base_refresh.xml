@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dearzs.app.widget.RefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg">
+
+    <ListView
+        android:id="@+id/base_refresh_activity_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/common_transparent_view_selector" />
+</com.dearzs.app.widget.RefreshLayout>

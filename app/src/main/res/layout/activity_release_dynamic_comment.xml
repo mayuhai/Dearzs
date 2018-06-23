@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/gray_line_area"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_6"
+        android:background="@color/gray_line_area" />
+
+    <LinearLayout
+        android:padding="@dimen/dimens_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_release_comment"
+            style="@style/common_edt_account_release"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_128"
+            android:hint="大声说出你想说的话... ..."
+            android:background="@color/transparent"
+            android:gravity="top"
+            android:padding="@dimen/dimens_5" />
+    </LinearLayout>
+</LinearLayout>
+
