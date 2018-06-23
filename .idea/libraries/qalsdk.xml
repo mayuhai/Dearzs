@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="qalsdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/TimLib/libs/qalsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

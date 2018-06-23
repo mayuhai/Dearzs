@@ -1,9 +1,0 @@
-int attr default_src 0x7f010001
-int attr textSize_px 0x7f010000
-int id upload_img 0x7f040000
-int id upload_tip 0x7f040001
-int layout simple_upload_layout 0x7f020000
-int string app_name 0x7f030000
-int[] styleable UploadView { 0x7f010000, 0x7f010001 }
-int styleable UploadView_default_src 1
-int styleable UploadView_textSize_px 0

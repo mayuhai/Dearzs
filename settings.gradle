@@ -1,1 +1,0 @@
-include ':app', ':CommonLib', ':UploadImgLib', ':UmShare', ':PushLib',':ExpendableListViewlibrary', ':TimLib', ':UniversalVideoView'

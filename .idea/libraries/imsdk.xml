@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="imsdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/TimLib/libs/imsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

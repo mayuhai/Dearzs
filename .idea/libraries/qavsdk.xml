@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="qavsdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/TimLib/libs/qavsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

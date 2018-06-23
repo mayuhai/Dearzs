@@ -1,4 +1,0 @@
-int id node_header 0x7f020000
-int id node_items 0x7f020001
-int id tree_items 0x7f020002
-int style TreeNodeStyle 0x7f030000
