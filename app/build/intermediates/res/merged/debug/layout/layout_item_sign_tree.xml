@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/view_sign_tree_line_left"
+            android:layout_width="@dimen/dimens_0"
+            android:layout_height="@dimen/dimens_2"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#44FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_sign_tree_node"
+            android:layout_width="@dimen/dimens_16"
+            android:layout_height="@dimen/dimens_16"
+            android:gravity="center"
+            android:paddingRight="1dip"
+            android:textColor="#FF6D02"
+            android:textSize="@dimen/dimens_10" />
+
+        <View
+            android:id="@+id/view_sign_tree_line_right"
+            android:layout_width="@dimen/dimens_0"
+            android:layout_height="@dimen/dimens_2"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#44FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_sign_tree_coin"
+        android:layout_width="@dimen/dimens_50"
+        android:layout_height="24dip"
+        android:layout_marginTop="4dip"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimens_10" />
+</LinearLayout>

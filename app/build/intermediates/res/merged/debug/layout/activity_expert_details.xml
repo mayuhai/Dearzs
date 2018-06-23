@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin_select_doctor"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/dimens_8"
+        android:paddingTop="@dimen/dimens_8"
+        android:paddingRight="@dimen/dimens_12"
+        android:paddingLeft="@dimen/dimens_12"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/bt_select_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_40"
+            android:background="@drawable/rectange_green_bg_selector"
+            android:text="就选他"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_16"
+            />
+    </LinearLayout>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/expert_details_patient_evaluate_listview"
+        android:layout_width="match_parent"
+        android:layout_above="@id/lin_select_doctor"
+        android:layout_height="match_parent"
+        android:divider="@color/transparent">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+    <LinearLayout
+        android:id="@+id/expert_details_float_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/dimens_12"
+        android:paddingLeft="@dimen/dimens_12"
+        android:paddingRight="@dimen/dimens_12"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/expert_details_consultation_bt_float"
+            android:layout_width="@dimen/dimens_0"
+            android:layout_height="@dimen/dimens_40"
+            android:layout_weight="1"
+            android:background="@drawable/rectange_green_bg_selector"
+            android:text="预约会诊"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_14" />
+
+        <Button
+            android:id="@+id/expert_details_appointment_bt_float"
+            android:layout_width="@dimen/dimens_0"
+            android:layout_height="@dimen/dimens_40"
+            android:layout_marginLeft="@dimen/dimens_12"
+            android:layout_weight="1"
+            android:background="@drawable/rectange_orange_bg_selector"
+            android:text="在线咨询"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_14" />
+    </LinearLayout>
+</RelativeLayout>

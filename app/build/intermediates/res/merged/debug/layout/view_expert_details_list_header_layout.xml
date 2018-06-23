@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flowlayout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/expert_details_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.dearzs.app.widget.CircleImageView
+                android:id="@+id/expert_details_user_photo"
+                android:layout_width="@dimen/dimens_96"
+                android:layout_height="@dimen/dimens_96" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_12"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/expert_details_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_16" />
+
+                <ImageView
+                    android:id="@+id/expert_details_can_zhuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimens_4"
+                    android:visibility="gone"
+                    android:layout_toRightOf="@id/expert_details_name"
+                    android:src="@mipmap/ic_zhuan_tag" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dimens_4">
+
+                <TextView
+                    android:id="@+id/expert_details_user_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="擅长"
+                    android:textColor="@color/gray_8" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimens_16"
+                    android:layout_marginRight="@dimen/dimens_16"
+                    android:src="@mipmap/ic_point" />
+
+                <TextView
+                    android:id="@+id/expert_details_user_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职称"
+                    android:textColor="@color/gray_8" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimens_16"
+                    android:layout_marginRight="@dimen/dimens_16"
+                    android:src="@mipmap/ic_point" />
+
+                <TextView
+                    android:id="@+id/expert_details_user_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="神经内科"
+                    android:textColor="@color/gray_8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dimens_16"
+                android:paddingTop="@dimen/dimens_12">
+
+                <RatingBar
+                    android:id="@+id/expert_details_user_rating"
+                    style="@style/middleRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="评分 ： 4.7" />
+
+                <TextView
+                    android:id="@+id/expert_details_user_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimens_16"
+                    android:text="评分 ： 4.7"
+                    android:textColor="@color/orange_txt" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/dimens_12"
+            android:id="@+id/lin_button_layout"
+            android:paddingLeft="@dimen/dimens_12"
+            android:paddingRight="@dimen/dimens_12">
+
+            <Button
+                android:id="@+id/expert_details_appointment_bt"
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="@dimen/dimens_40"
+                android:layout_weight="1"
+                android:background="@drawable/rectange_green_bg_selector"
+                android:text="预约会诊"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_14" />
+
+            <Button
+                android:id="@+id/expert_details_consultation_bt"
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="@dimen/dimens_40"
+                android:layout_marginLeft="@dimen/dimens_12"
+                android:layout_weight="1"
+                android:background="@drawable/rectange_orange_bg_selector"
+                android:text="在线咨询"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+
+        <LinearLayout
+            android:id="@+id/expert_details_intro_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_44"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimens_12">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/ic_location_dack"
+                    android:drawablePadding="@dimen/dimens_8"
+                    android:text="擅长疾病和简介"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/dimens_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimens_38"
+                android:paddingRight="@dimen/dimens_12">
+
+                <com.dearzs.app.widget.FixGridLayout
+                    android:id="@+id/expert_details_good_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dimens_8"
+                    flowlayout:horizontalSpacing="@dimen/dimens_8"
+                    flowlayout:verticalSpacing="@dimen/dimens_8"></com.dearzs.app.widget.FixGridLayout>
+
+                <TextView
+                    android:id="@+id/expert_details_good"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingBottom="@dimen/dimens_12"
+                    android:textColor="@color/gray_1"
+                    android:textSize="@dimen/dimens_14"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_44"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimens_12">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_clock"
+                android:drawablePadding="@dimen/dimens_8"
+                android:text="出诊时间"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/dimens_16" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gv_expert_details_visit_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@null"
+            android:numColumns="2"
+            android:verticalSpacing="0dp"></GridView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_44"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimens_12">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_comment"
+                android:drawablePadding="@dimen/dimens_8"
+                android:text="评论"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/dimens_16" />
+
+            <TextView
+                android:id="@+id/expert_details_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="()"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/dimens_16" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:background="@color/line" />
+    </LinearLayout>
+</LinearLayout>

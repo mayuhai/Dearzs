@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 公共标签Item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/dimens_5"
+    android:paddingBottom="@dimen/dimens_5"
+    >
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/dimens_30"
+        android:paddingLeft="@dimen/dimens_10"
+        android:paddingRight="@dimen/dimens_10"
+        android:id="@+id/item_title_text"
+        android:textSize="@dimen/dimens_16"
+        android:gravity="center"
+        android:background="@drawable/rect_green_line_light_green_bg"/>
+    </LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:textSize="@dimen/dimens_20"
+        android:textColor="@color/white"
+        android:text="确定要结束视频？"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/btn_sure"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:text="确定"
+        android:textSize="@dimen/dimens_18"
+        android:textColor="#d63f41"
+        android:gravity="center"
+        android:background="@mipmap/button_pressed"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="取消"
+        android:textSize="@dimen/dimens_18"
+        android:textColor="#d63f41"
+        android:gravity="center"
+        android:background="@mipmap/button_pressed"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

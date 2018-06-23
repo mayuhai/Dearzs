@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_6"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_0_5"
+        android:background="@color/gray_line_area"
+        />
+
+    <com.dearzs.app.widget.MyTabBar
+        android:id="@+id/patient_lib_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mytabbar_height">
+    </com.dearzs.app.widget.MyTabBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/mine_custom_layout_empty"
+            layout="@layout/listview_empty_layout" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/top_line_bg">
+
+            <ListView
+                android:id="@+id/mine_customer_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/transparent"
+                android:dividerHeight="@dimen/dimens_0"
+                android:listSelector="@drawable/common_white_view_selector" />
+
+            <TextView
+                android:id="@+id/mine_customer_title_layout_no_friends"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimens_30"
+                android:layout_gravity="right|top"
+                android:background="@color/gray_6"
+                android:gravity="center"
+                android:text="暂无患者信息"
+                android:textColor="@color/gray_1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/mine_customer_title_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimens_32"
+                android:layout_gravity="right|top"
+                android:visibility="gone"
+                android:background="@color/black_1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mine_customer_title_layout_catalog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_10"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="5dip"
+                    android:text="X"
+                    android:paddingTop="5dip"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_16" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mine_customer_tv_dialog"
+                android:layout_width="@dimen/dimens_65"
+                android:layout_height="@dimen/dimens_65"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_rectangle_black_translucent_bg"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_24"
+                android:visibility="invisible" />
+
+            <com.dearzs.app.widget.SideBar
+                android:id="@+id/mine_customer_sidrbar"
+                android:layout_width="@dimen/dimens_30"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center"
+                android:layout_marginBottom="@dimen/dimens_25"
+                android:layout_marginTop="@dimen/dimens_25" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

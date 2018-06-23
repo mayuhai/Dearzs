@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        DearZs {
+            keyAlias 'dearzs'
+            keyPassword 'dearzs_zhinengyiliao'
+            storeFile file('../keystore/dearzs.keystore')
+            storePassword 'dearzs_zhinengyiliao'
+        }
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.dearzs.app"
+        minSdkVersion 9
+        targetSdkVersion 22
+        versionCode 12
+        versionName "1.0.12"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.DearZs
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.DearZs
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+
+    packagingOptions{
+        exclude '*.apk'
+    }
+    dexOptions {
+        jumboMode true
+        incremental false
+    }
+    lintOptions{
+        abortOnError false
+    }
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.jcodecraeer:xrecyclerview:1.2.7'
+    compile 'de.greenrobot:eventbus:3.0.0-beta1'
+    compile project(':CommonLib')
+    compile project(':UploadImgLib')
+    compile project(':UmShare')
+    compile project(':TimLib')
+    compile project(':PushLib')
+    compile project(':ExpendableListViewlibrary')
+    compile 'com.android.support:design:23.2.0'
+    compile project(':UniversalVideoView')
+}

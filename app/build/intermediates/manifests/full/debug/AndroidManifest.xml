@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dearzs.app"
+    android:versionCode="12"
+    android:versionName="1.0.12" > <!-- 出现这个错误的原因是我引入的第三方库最低支持版本高于我的项目的最低支持版本，异常中的信息显示：我的项目的最低支持版本为8（Android 2.2），而第三方库的最低支持版本为9（Android 2.3），所以抛出了这个异常。 -->
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="22" />
+
+    <!-- 必选 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGSAPN_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <!-- 添加可以向外拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <permission
+        android:name="com.dearzs.app.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" /> <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="com.dearzs.app.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <application
+        android:name="com.dearzs.app.BaseApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Base.AppTheme" >
+
+        <!-- 应用启动页面 -->
+        <activity android:name="com.dearzs.app.activity.StartActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HOME页 应用主页 -->
+        <activity
+            android:name="com.dearzs.app.activity.HomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 引导页 -->
+        <activity
+            android:name="com.dearzs.app.activity.AppGuideActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 咨询详情WebView页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.MedicalConsultationWebViewActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+
+        <!-- 公用WebView页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.CommonWebViewActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <!-- 专家详情 -->
+        <activity
+            android:name="com.dearzs.app.activity.expert.ExpertDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 病历界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.expert.MedicalRecordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <!-- 病历更新历史界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.expert.MedicalRecordHistoryListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <!-- 病历编辑界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.expert.MedicalRecordModifyActivity"
+            android:screenOrientation="portrait" />
+        <!-- 登录界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <!-- 忘记密码 -->
+        <activity
+            android:name="com.dearzs.app.activity.ForgetPwdActivity"
+            android:screenOrientation="portrait" />
+        <!-- 找回密码界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.FindPwdActivity"
+            android:screenOrientation="portrait" />
+        <!-- 注册界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <!-- 上传图片页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.communtity.UploadPicActivity"
+            android:screenOrientation="portrait" />
+        <!-- 大图页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.communtity.GalleryImageActivity"
+            android:screenOrientation="portrait" />
+        <!-- 发布动态页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.communtity.ReleaseDynamicActivity"
+            android:screenOrientation="portrait" />
+        <!-- 发布动态评论界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.communtity.ReleaseCommentActivity"
+            android:screenOrientation="portrait" />
+        <!-- 动态详情界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.communtity.DynamicDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 选择图片页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.communtity.AlbumActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 医生认证界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.DoctorCertificationActivity"
+            android:screenOrientation="portrait" />
+        <!-- 家庭医生页面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.MyFamilyDoctorActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 反馈界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 银行信息界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.BankCardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 擅长疾病选择界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.GoodAtActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 收支明细界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.PaymentsBalanceListActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 个人资料界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.PersionalDataActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 医生认证介绍界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.DoctorCertificationIntroduceActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 患者库界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.PatientLibraryActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 患者查询界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.PatientSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 患者添加界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.PatientAddActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 患者详情界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.PatientDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的订单界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.OrderDataListActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的钱包界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.MyWalletActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 出诊设置界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.VisitCostSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dearzs.app.activity.mine.VisitCostTimeSettingActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 转诊设置界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.TransferSettingActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的收藏界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.MyCollectActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 关于界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的设置界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.SettingActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的二维码界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.QRCodeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 各类协议界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.AgreementActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 预约会诊界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.home.AppointmentConsultationActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 搜索界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.home.SearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 会诊室 -->
+        <activity
+            android:name="com.dearzs.app.activity.home.ConsultationRoomActivity"
+            android:screenOrientation="portrait" />
+        <!-- 会诊室 -->
+        <activity
+            android:name="com.dearzs.app.activity.home.EditConsultResultActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 医学资讯界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.home.MedicalConsultationActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 消息列表界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.home.MessageListActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 订单确认界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.order.OrderConfirmActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 待付款界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.order.OrderPendingPaymentActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 订单完成界面 -->
+        <activity
+            android:name="com.dearzs.app.activity.order.OrderCompleteActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 聊天界面 -->
+        <activity
+            android:name="com.dearzs.app.chat.ui.ChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 视频界面 -->
+        <activity
+            android:name="com.dearzs.app.chat.ui.LiveActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 聊天图片预览界面 -->
+        <activity
+            android:name="com.dearzs.app.chat.ui.ImagePreviewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 聊天图片查看界面 -->
+        <activity
+            android:name="com.dearzs.app.chat.ui.ImageViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 订单详情 -->
+        <activity
+            android:name="com.dearzs.app.activity.mine.OrderDataDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 专家讲堂 -->
+        <activity
+            android:name="com.dearzs.app.activity.forum.DoctorForumActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 视频播放类 -->
+        <activity
+            android:name="com.dearzs.app.activity.forum.MediaPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 家庭医生列表类 -->
+        <activity
+            android:name="com.dearzs.app.activity.family.FamilyDocListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 家庭医生详情页 -->
+        <activity
+            android:name="com.dearzs.app.activity.family.FamilyDocDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 家庭医生订单详情页 -->
+        <activity
+            android:name="com.dearzs.app.activity.family.FamilyDocOrderConfirmActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 友盟分享 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="575d58fd67e58ef7de0010e9" />
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- ############ 微信 ############ -->
+        <activity
+            android:name="com.dearzs.app.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- ############ 新浪微博############ -->
+        <activity
+            android:name="com.dearzs.app.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDefault"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- 友盟分享 -->
+
+
+        <!-- 微信支付 -->
+        <activity
+            android:name="com.dearzs.app.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+
+            <!-- 这个intent-filter不要忘了 -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wxfcb112dc306c5d21" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.dearzs.app.AppRegister" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+        <!-- 微信支付 -->
+
+
+        <!-- 支付宝支付 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <!-- 支付宝支付 -->
+
+
+        <!-- =================腾讯云IM START========================== -->
+        <!-- 消息收发service -->
+        <service
+            android:name="com.tencent.qalsdk.service.QalService"
+            android:exported="false"
+            android:process=":QALSERVICE" >
+        </service>
+        <!-- 消息收发辅助service -->
+        <service
+            android:name="com.tencent.qalsdk.service.QalAssistService"
+            android:exported="false"
+            android:process=":QALSERVICE" >
+        </service>
+        <!-- 离线消息广播接收器 -->
+        <receiver
+            android:name="com.tencent.qalsdk.QALBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.tencent.qalsdk.broadcast.qal" />
+            </intent-filter>
+        </receiver>
+        <!-- 系统消息广播接收器 -->
+        <receiver
+            android:name="com.tencent.qalsdk.core.NetConnInfoCenter"
+            android:process=":QALSERVICE" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <!-- =================腾讯云IM END========================== -->
+
+
+        <!-- jpush start -->
+
+        <activity
+            android:name="com.dearzs.app.jpush.JpushActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <!-- &lt;!&ndash; For test only 测试的主程序&ndash;&gt; -->
+        <!-- <activity -->
+        <!-- android:name="com.example.jpushdemo.MainActivity" -->
+        <!-- android:label="@string/app_name"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- &lt;!&ndash; For test only 测试高级功能 &ndash;&gt; -->
+        <!-- <activity -->
+        <!-- android:name="com.example.jpushdemo.PushSetActivity" -->
+        <!-- android:label="@string/app_name"></activity> -->
+        <!-- &lt;!&ndash; For test only 测试设置 &ndash;&gt; -->
+        <!-- <activity -->
+        <!-- android:name="com.example.jpushdemo.SettingActivity" -->
+        <!-- android:label="@string/app_name"></activity> -->
+        <!-- &lt;!&ndash; For test only 测试状态通知栏，需要打开的Activity &ndash;&gt; -->
+        <!-- <activity -->
+        <!-- android:name="com.example.jpushdemo.TestActivity" -->
+        <!-- android:exported="false"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="jpush.testAction" /> -->
+        <!-- <category android:name="jpush.testCategory" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.dearzs.app.jpush.MyReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.dearzs.app" />
+            </intent-filter>
+        </receiver>
+        <!-- jpush end -->
+        <meta-data
+            android:name="com.tencent.rdm.uuid"
+            android:value="41434af4-5144-4966-babc-a99d9a80fa06" /> <!-- For test only 测试的主程序 -->
+        <!--
+       <activity
+            android:name="com.example.jpushdemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       &lt;!&ndash; For test only 测试高级功能 &ndash;&gt;
+       <activity android:name="com.example.jpushdemo.PushSetActivity" android:label="@string/app_name"></activity>
+        &lt;!&ndash; For test only 测试设置 &ndash;&gt;
+       <activity android:name="com.example.jpushdemo.SettingActivity" android:label="@string/app_name"></activity>
+        &lt;!&ndash; For test only 测试状态通知栏，需要打开的Activity &ndash;&gt;
+        <activity android:name="com.example.jpushdemo.TestActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="jpush.testAction" />
+                <category android:name="jpush.testCategory" />
+            </intent-filter>
+        </activity>
+        -->
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false" >
+        </activity> <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.dearzs.app" />
+            </intent-filter>
+        </activity> <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service> <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.dearzs.app" />
+            </intent-filter>
+        </service> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.dearzs.app" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" /> <!-- &lt;!&ndash; User defined.  For test only  用户自定义的广播接收器&ndash;&gt; -->
+        <!-- <receiver -->
+        <!-- android:name="com.example.jpushdemo.MyReceiver" -->
+        <!-- android:exported="false" -->
+        <!-- android:enabled="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="cn.jpush.android.intent.REGISTRATION" /> &lt;!&ndash;Required  用户注册SDK的intent&ndash;&gt; -->
+        <!-- <action android:name="cn.jpush.android.intent.UNREGISTRATION" /> -->
+        <!-- <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> &lt;!&ndash;Required  用户接收SDK消息的intent&ndash;&gt; -->
+        <!-- <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> &lt;!&ndash;Required  用户接收SDK通知栏信息的intent&ndash;&gt; -->
+        <!-- <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> &lt;!&ndash;Required  用户打开自定义通知栏的intent&ndash;&gt; -->
+        <!-- <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> &lt;!&ndash;Optional 用户接受Rich Push Javascript 回调函数的intent&ndash;&gt; -->
+        <!-- <action android:name="cn.jpush.android.intent.CONNECTION" />&lt;!&ndash; 接收网络变化 连接/断开 since 1.6.3 &ndash;&gt; -->
+        <!-- <category android:name="com.dearzs.app" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="b920ac1b8f29aa9541159b00" />
+    </application>
+
+</manifest>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_bg"
+        android:id="@+id/lin_recommend_expert_layout"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimens_12">
+
+        <com.dearzs.app.widget.CircleImageView
+            android:id="@+id/iv_lecture_header_layout_photo"
+            android:layout_width="@dimen/dimens_64"
+            android:layout_height="@dimen/dimens_64"
+            android:layout_marginRight="@dimen/dimens_12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_64"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_lecture_header_layout_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_16" />
+
+                <TextView
+                    android:id="@+id/tv_lecture_header_layout_user_job"
+                    android:layout_width="@dimen/dimens_0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:paddingLeft="@dimen/dimens_6"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_12" />
+
+                <TextView
+                    android:id="@+id/tv_lecture_header_layout_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimens_4"
+                    android:text="0"
+                    android:drawableLeft="@mipmap/video_eye"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_4"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_lecture_header_layout_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_9"
+                    android:textSize="@dimen/dimens_12" />
+
+                <View
+                    android:layout_width="@dimen/dimens_1"
+                    android:layout_height="@dimen/dimens_12"
+                    android:layout_marginLeft="@dimen/dimens_6"
+                    android:layout_marginRight="@dimen/dimens_6"
+                    android:id="@+id/lecture_header_layout_line"
+                    android:visibility="gone"
+                    android:background="@color/gray_line_area" />
+
+                <TextView
+                    android:id="@+id/tv_lecture_header_layout_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_9"
+                    android:textSize="@dimen/dimens_12" />
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/rb_lecture_docture_rating"
+                style="@style/middleRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/dimens_6" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_6"
+        android:background="@color/gray_line_area" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/lin_dynamic_details_recomment_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_44"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dimens_12"
+            android:paddingRight="@dimen/dimens_12">
+
+            <TextView
+                android:layout_width="@dimen/dimens_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="相关推荐"
+                android:textColor="@color/black_2"
+                android:textSize="@dimen/dimens_16" />
+
+            <TextView
+                android:id="@+id/tv_lecture_header_layout_view_more_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看更多"
+                android:drawableRight="@mipmap/video_more"
+                android:textColor="@color/green_bg"
+                android:textSize="@dimen/dimens_12" />
+        </LinearLayout>
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/rv_lecture_header_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_8"
+            android:layout_marginRight="@dimen/dimens_8"
+            android:clickable="false"
+            android:focusable="false"
+            android:orientation="horizontal">
+        </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_dynamic_details_comment_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_44"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimens_12">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_comment"
+                android:drawablePadding="@dimen/dimens_8"
+                android:text="评论"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/dimens_16" />
+
+            <TextView
+                android:id="@+id/tv_lecture_comments_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="()"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/dimens_16" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_0_5"
+            android:background="@color/line" />
+
+    </LinearLayout>
+</LinearLayout>

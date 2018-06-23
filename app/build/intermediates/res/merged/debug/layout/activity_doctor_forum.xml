@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.dearzs.app.widget.MyTabBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mytabbar_height"
+        android:id="@+id/tab_expert_forum"
+        >
+    </com.dearzs.app.widget.MyTabBar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_1"
+        android:background="@color/line"/>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/rv_expert_forum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/dimens_8"
+        android:background="@color/gray_line_area"
+        android:paddingLeft="@dimen/dimens_4"
+        android:paddingRight="@dimen/dimens_4"/>
+</LinearLayout>

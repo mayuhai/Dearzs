@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_line_area"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <com.dearzs.app.widget.MScrollView
+        android:id="@+id/expert_details_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_bg"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_56"
+                android:layout_alignParentBottom="true"
+                android:background="@color/content_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimens_12"
+                android:paddingRight="@dimen/dimens_12">
+
+                <TextView
+                    android:layout_width="@dimen/dimens_0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@mipmap/ic_confirm"
+                    android:drawablePadding="@dimen/dimens_4"
+                    android:gravity="center_vertical"
+                    android:text="订单支付"
+                    android:textColor="@color/black_2"
+                    android:textSize="@dimen/dimens_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/dimens_6"
+                    android:text="待支付："
+                    android:textColor="@color/gray_9"
+                    android:textSize="@dimen/dimens_14" />
+
+                <TextView
+                    android:id="@+id/order_payment_order_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dimens_5"
+                    android:text="￥600"
+                    android:textColor="@color/red_light"
+                    android:textSize="@dimen/dimens_24" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens_44"
+                    android:drawableLeft="@mipmap/ic_pay"
+                    android:drawablePadding="@dimen/dimens_8"
+                    android:paddingLeft="@dimen/dimens_12"
+                    android:gravity="center_vertical"
+                    android:text="选择支付方式"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/dimens_16" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_0_5"
+                    android:background="@color/line"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/order_payment_patient_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dimens_26"
+                    android:visibility="visible">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimens_54"
+                        android:id="@+id/order_payment_alipay_layout"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/dimens_12"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_icon_alipay" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/dimens_0"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dimens_12">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="支付宝客户端支付"
+                                android:textColor="@color/black_2"
+                                android:textSize="@dimen/dimens_14" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="推荐已安装支付宝客户端的用户使用"
+                                android:textColor="@color/gray_9"
+                                android:textSize="@dimen/dimens_12" />
+                        </LinearLayout>
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray_9"
+                            android:clickable="false"
+                            android:id="@+id/payment_alipay_checkbox"
+                            android:button="@drawable/checkbox_radio_selector"
+                            android:textSize="@dimen/dimens_16" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimens_0_5"
+                        android:background="@color/line"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimens_54"
+                        android:id="@+id/order_payment_wechat_layout"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/dimens_12"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_icon_wechat" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/dimens_0"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dimens_12">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="微信支付"
+                                android:textColor="@color/black_2"
+                                android:textSize="@dimen/dimens_14" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="推荐开通微信支付的用户使用"
+                                android:textColor="@color/gray_9"
+                                android:textSize="@dimen/dimens_12" />
+                        </LinearLayout>
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/payment_wechat_checkbox"
+                            android:clickable="false"
+                            android:textColor="@color/gray_9"
+                            android:button="@drawable/checkbox_radio_selector"
+                            android:textSize="@dimen/dimens_16" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.dearzs.app.widget.MScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_48"
+        android:layout_marginTop="@dimen/dimens_12"
+        android:layout_marginLeft="@dimen/dimens_12"
+        android:layout_marginRight="@dimen/dimens_12"
+        android:layout_below="@id/expert_details_scrollview"
+        android:text="去支付"
+        android:id="@+id/order_payment_to_pay_bt"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimens_16"
+        android:background="@drawable/round_rectange_red_selector" />
+
+</RelativeLayout>
+

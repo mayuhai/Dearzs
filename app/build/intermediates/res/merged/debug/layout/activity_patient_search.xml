@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/gray_10"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimens_40">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_6"
+        android:background="@color/gray_line_area" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimens_12"
+            android:paddingRight="@dimen/dimens_12">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_card"
+                android:textColor="@color/gray_4"
+                android:textSize="@dimen/dimens_16" />
+
+
+            <EditText
+                android:id="@+id/edt_cardNO"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_48"
+                android:layout_marginLeft="@dimen/dimens_10"
+                android:background="@android:color/transparent"
+                android:hint="@string/input_identity_card" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_48"
+            android:paddingLeft="@dimen/dimens_12"
+            android:layout_gravity="right"
+            android:paddingRight="@dimen/dimens_12"
+            android:text="@string/identity_card_tip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_48"
+        android:layout_marginTop="@dimen/dimens_12"
+        android:layout_marginLeft="@dimen/dimens_12"
+        android:layout_marginRight="@dimen/dimens_12"
+        android:background="@drawable/rectange_green_bg_selector"
+        android:text="@string/query"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimens_16" />
+</LinearLayout>

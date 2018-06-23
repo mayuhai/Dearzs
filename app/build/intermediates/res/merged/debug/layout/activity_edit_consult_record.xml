@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_line_area"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <com.dearzs.app.widget.MScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/consult_result_bottom_layout"
+        android:background="@color/content_bg"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimens_12">
+
+                <com.dearzs.app.widget.CircleImageView
+                    android:id="@+id/modify_medical_record_patient_photo"
+                    android:layout_width="@dimen/dimens_72"
+                    android:layout_height="@dimen/dimens_72"
+                    android:src="@mipmap/ic_avatar_default"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dimens_12">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/modify_medical_record_patient_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text=""
+                            android:textColor="@color/black_2"
+                            android:textSize="@dimen/dimens_16" />
+
+                        <ImageView
+                            android:id="@+id/modify_medical_record_patient_sex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dimens_4"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/dimens_6">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="年龄："
+                            android:textColor="@color/gray_8" />
+
+                        <TextView
+                            android:id="@+id/modify_medical_record_patient_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray_8" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimens_44"
+                android:drawableLeft="@mipmap/ic_item_left"
+                android:drawablePadding="@dimen/dimens_6"
+                android:gravity="center_vertical"
+                android:text="病例分析"
+                android:textColor="@color/black_2"
+                android:textSize="@dimen/dimens_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_0_5"
+                android:background="@color/gray_line_area" />
+
+            <EditText
+                android:id="@+id/et_modify_medical_record_current_history"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_80"
+                android:layout_margin="@dimen/dimens_12"
+                android:background="@drawable/rounded_rectangle_gray_line_white_bg"
+                android:gravity="top"
+                android:padding="@dimen/dimens_7"
+                android:text=""
+                android:textColor="@color/gray_dack"
+                android:textSize="@dimen/dimens_14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimens_44"
+                android:drawableLeft="@mipmap/ic_item_left"
+                android:drawablePadding="@dimen/dimens_8"
+                android:gravity="center_vertical"
+                android:text="病情诊断"
+                android:textColor="@color/black_2"
+                android:textSize="@dimen/dimens_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_0_5"
+                android:background="@color/gray_line_area" />
+
+            <EditText
+                android:id="@+id/et_modify_medical_record_past_history"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_80"
+                android:layout_margin="@dimen/dimens_12"
+                android:background="@drawable/rounded_rectangle_gray_line_white_bg"
+                android:gravity="top"
+                android:padding="@dimen/dimens_7"
+                android:text=""
+                android:textColor="@color/gray_dack"
+                android:textSize="@dimen/dimens_14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimens_44"
+                android:drawableLeft="@mipmap/ic_item_left"
+                android:drawablePadding="@dimen/dimens_8"
+                android:gravity="center_vertical"
+                android:text="治疗方案"
+                android:textColor="@color/black_2"
+                android:textSize="@dimen/dimens_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_0_5"
+                android:background="@color/gray_line_area" />
+
+            <EditText
+                android:id="@+id/et_modify_medical_record_specialized"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_80"
+                android:layout_margin="@dimen/dimens_12"
+                android:background="@drawable/rounded_rectangle_gray_line_white_bg"
+                android:gravity="top"
+                android:padding="@dimen/dimens_7"
+                android:text=""
+                android:textColor="@color/gray_dack"
+                android:textSize="@dimen/dimens_14" />
+        </LinearLayout>
+    </com.dearzs.app.widget.MScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/consult_result_bottom_layout"
+        android:background="@color/white"
+        android:padding="@dimen/dimens_12">
+
+        <Button
+            android:id="@+id/bt_zhuanzhen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_40"
+            android:background="@drawable/rounded_rectangle_green_bg"
+            android:text="转诊"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_16" />
+    </LinearLayout>
+</RelativeLayout>
+

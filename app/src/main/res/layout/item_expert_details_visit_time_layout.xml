@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/dimens_34"
+    android:paddingTop="@dimen/dimens_4"
+    android:paddingBottom="@dimen/dimens_4"
+    android:paddingRight="@dimen/dimens_8"
+    android:background="@color/content_bg"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expert_visit_week"
+        android:text="周一"
+        android:textColor="@color/gray_dack"
+        android:textSize="@dimen/dimens_14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dimens_14"
+        android:id="@+id/expert_visit_time"
+        android:text="上午   下午"
+        android:textColor="@color/orange_txt"
+        android:textSize="@dimen/dimens_14" />
+</LinearLayout>

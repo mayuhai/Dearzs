@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimens_12"
+    android:paddingTop="@dimen/dimens_12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dimens_44"
+            android:layout_height="@dimen/dimens_44">
+
+            <com.dearzs.app.widget.CircleImageView
+                android:id="@+id/iv_item_lecture_comment_user_photo"
+                android:layout_width="@dimen/dimens_44"
+                android:layout_height="@dimen/dimens_44"
+                android:src="@color/blue"
+                />
+
+            <ImageView
+                android:id="@+id/iv_item_lecture_comment_user_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/common_v" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimens_8"
+                android:paddingRight="@dimen/dimens_8"
+                android:paddingTop="@dimen/dimens_4">
+
+                <TextView
+                    android:id="@+id/item_lecture_comment_user_doctor_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="大长今"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/dimens_14" />
+
+                <TextView
+                    android:id="@+id/item_lecture_comment_user_doctor_job"
+                    android:layout_width="@dimen/dimens_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimens_4"
+                    android:layout_weight="1"
+                    android:text="大长今"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/dimens_12" />
+
+                <TextView
+                    android:id="@+id/item_lecture_comment_evaluation_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="@dimen/dimens_11"
+                    android:textColor="@color/gray_9"
+                    android:textSize="@dimen/dimens_11" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimens_12"
+                android:paddingRight="@dimen/dimens_12"
+                android:paddingTop="@dimen/dimens_8">
+
+                <TextView
+                    android:id="@+id/item_lecture_comment_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dimens_12"
+                    android:text="这个专家很靠谱，不想其他专家不负责任！绝对中国好医生，大家可以试试，真的很不错的！我不是托，只是真的很感动。。。此处省略一万字"
+                    android:textColor="@color/gray_4"
+                    android:textSize="@dimen/dimens_12" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_1"
+                    android:background="@color/line" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/item_lecture_comment_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/dimens_12"
+            android:src="@mipmap/ic_dynamic_del"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

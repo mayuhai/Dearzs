@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/dimens_20">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="评论"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/dimens_10"
+            android:paddingRight="@dimen/dimens_10">
+
+            <LinearLayout
+                android:id="@+id/ly_timepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RatingBar
+                    android:id="@+id/comment_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminateOnly="false"
+                    android:maxHeight="@dimen/dimens_25"
+                    android:minHeight="@dimen/dimens_25"
+                    android:paddingTop="@dimen/dimens_10"
+                    android:progressDrawable="@drawable/big_ratingbar_seletor"
+                    android:text="评分 ： 4.7"
+                    android:thumb="@null" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_message"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_100"
+                android:layout_below="@id/ly_timepicker"
+                android:gravity="top"
+                android:hint="请输入评论内容"
+                android:maxLength="200"
+                android:textSize="@dimen/dimens_14" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimens_20"
+                android:background="@drawable/round_white_bg_selector"
+                android:gravity="center"
+                android:text="@string/ok" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:background="#ffd0d0d0" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimens_20"
+                android:background="@drawable/round_white_bg_selector"
+                android:gravity="center"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

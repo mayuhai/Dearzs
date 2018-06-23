@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/modal_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/modal_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/umeng_socialize_fade_out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/anim/umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/success_bow_roate.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/success_bow_roate.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/success_mask_layout.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/success_mask_layout.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/custom_item_anim.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/custom_item_anim.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/out.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/umeng_socialize_shareboard_animation_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/anim/umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/umeng_socialize_fade_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/anim/umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/umeng_socialize_shareboard_animation_out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/anim/umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/error_frame_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/error_frame_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/out_right.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/out_right.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/in_right.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/in_right.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/qav_member_click_animition.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/qav_member_click_animition.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/error_x_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/src/main/res/anim/error_x_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_in_from_bottom.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/anim/umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_out_from_bottom.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/Dearzs/UmShare/unspecified/res/anim/umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/mayuhai/Desktop/workspace/dearzs/trunk/client/android/Dearzs/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_fab_out.xml"
+    }
+]

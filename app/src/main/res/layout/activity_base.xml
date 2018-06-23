@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- titlebar布局 -->
+    <com.dearzs.app.widget.TitleBarView
+        android:id="@+id/base_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+<!--
+    <include layout="@layout/listview_empty_layout"
+        android:visibility="gone"
+        />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@id/base_layout_title">
+
+        <!-- error布局 -->
+        <com.dearzs.app.widget.ErrorLayoutView
+            android:id="@+id/layout_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/base_tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimens_12"
+            android:background="@drawable/rounded_rectangle_orange_bg"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:id="@+id/base_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/content_bg"
+            android:layout_below="@+id/base_tv_tip"
+            android:visibility="visible">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

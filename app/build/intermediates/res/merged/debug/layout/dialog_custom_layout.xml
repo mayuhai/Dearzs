@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/dimens_20">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:text="回复"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/dimens_10"
+            android:paddingRight="@dimen/dimens_10">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="请设置建议时间"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:id="@+id/ly_timepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/message"
+                android:orientation="horizontal"
+                android:paddingLeft="3dp"
+                android:visibility="visible">
+
+                <NumberPicker
+                    android:id="@+id/hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:text=":"
+                    android:textSize="20sp" />
+
+                <NumberPicker
+                    android:id="@+id/minute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_message"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_100"
+                android:layout_below="@id/ly_timepicker"
+                android:gravity="top"
+                android:hint="建议内容"
+                android:maxLength="200"
+                android:textSize="@dimen/dimens_14" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="60.0dip"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:background="@drawable/dialog_bottom_bg"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/positiveButton"-->
+                <!--android:layout_width="114.0dip"-->
+                <!--android:layout_height="40.0dip"-->
+                <!--android:background="@drawable/round_white_bg_selector"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/ok" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/negativeButton"-->
+                <!--android:layout_width="114.0dip"-->
+                <!--android:layout_height="40.0dip"-->
+                <!--android:layout_marginLeft="20.0dip"-->
+                <!--android:background="@drawable/round_white_bg_selector"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/cancel" />-->
+        <!--</LinearLayout>-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimens_20"
+                android:background="@drawable/round_white_bg_selector"
+                android:gravity="center"
+                android:text="@string/ok" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:background="#ffd0d0d0" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimens_20"
+                android:background="@drawable/round_white_bg_selector"
+                android:gravity="center"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

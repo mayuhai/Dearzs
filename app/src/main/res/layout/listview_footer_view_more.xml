@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_0_5"
+        android:background="@color/gray_line_area" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/pull_to_refresh_loadmore_text"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/dimens_8"
+            android:drawableRight="@mipmap/ic_arrow_right"
+            android:gravity="center"
+            android:text="查看更多医生"
+            android:textColor="@color/black_2"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

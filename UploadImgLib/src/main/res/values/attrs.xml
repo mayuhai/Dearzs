@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UploadView">
+        <attr name="textSize_px" format="dimension" />
+        <attr name="default_src" format="integer" />
+    </declare-styleable>
+</resources>

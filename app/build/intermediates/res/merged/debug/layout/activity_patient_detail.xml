@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:divideStyle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+
+        <LinearLayout
+            android:id="@+id/mine_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimens_12"
+            android:paddingTop="@dimen/dimens_12">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimens_12"
+                android:paddingRight="@dimen/dimens_12">
+
+                <com.dearzs.app.widget.CircleImageView
+                    android:id="@+id/iv_user_photo"
+                    android:layout_width="@dimen/dimens_72"
+                    android:layout_height="@dimen/dimens_72"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/dimens_12"
+                    android:src="@mipmap/un_icon"
+                    divideStyle:border_color="@color/white"
+                    divideStyle:border_width="@dimen/dimens_2" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/dimens_0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_name"
+                            android:text="龙哥"
+                            android:textSize="@dimen/dimens_16"
+                            android:textColor="@color/black_2" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimens_6"
+                            android:id="@+id/iv_gander"
+                            android:src="@mipmap/ic_male"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/dimens_2">
+
+                        <TextView
+                            android:id="@+id/tv_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="年龄：50"
+                            android:textSize="@dimen/dimens_14"
+                            android:textColor="@color/black_2" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+
+        <LinearLayout
+            android:id="@+id/lv_persional_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_cardNO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cDesc="1234567890"
+                divideStyle:cIcon="@mipmap/ic_mine_patient"
+                divideStyle:cDescTextColor="@color/black_1"
+                divideStyle:cShowArror="false"
+                divideStyle:cShowLine="true"
+                divideStyle:cShowIcon="false"
+                divideStyle:cTitle="身份证"
+                divideStyle:cTitleTextColor="@color/black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dimens_2">
+
+                <com.dearzs.app.widget.CustomCellViewWithImage
+                    android:id="@+id/iv_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    divideStyle:cDesc="1234567890"
+                    divideStyle:cDescTextColor="@color/black_1"
+                    divideStyle:cShowArror="true"
+                    divideStyle:cShowLine="true"
+                    divideStyle:cShowIcon="false"
+                    divideStyle:cRightResId="@mipmap/ic_phone_call"
+                    divideStyle:cTitle="联系电话"
+                    divideStyle:cTitleTextColor="@color/black" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_6"
+                android:background="@color/gray_line_area" />
+            <com.dearzs.app.widget.CustomCellViewWithImage
+                android:id="@+id/iv_medical_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                divideStyle:cIcon="@mipmap/ic_mine_wallet"
+                divideStyle:cDesc=""
+                divideStyle:cDescTextColor="@color/red_light"
+                divideStyle:cShowArror="true"
+                divideStyle:cShowLine="true"
+                divideStyle:cTitle="病历"
+                divideStyle:cTitleTextColor="@color/black" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_6"
+            android:background="@color/gray_line_area" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimens_12"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="@dimen/dimens_0"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dimens_36"
+                android:background="@drawable/rectange_green_bg_selector"
+                android:text="删除"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_16" />
+            <Button
+                android:id="@+id/btn_message"
+                android:layout_width="@dimen/dimens_0"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dimens_36"
+                android:layout_marginLeft="@dimen/dimens_12"
+                android:background="@drawable/rectange_orange_bg_selector"
+                android:text="消息"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_16" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

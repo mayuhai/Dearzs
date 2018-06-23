@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/medical_consultation_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimens_12">
+
+        <ImageView
+            android:id="@+id/iv_item_news_image"
+            android:layout_width="@dimen/dimens_72"
+            android:layout_height="@dimen/dimens_72" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimens_12">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_item_news_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:text="中南大"
+                        android:textColor="@color/black_2"
+                        android:textSize="@dimen/dimens_16" />
+
+                    <ImageView
+                        android:id="@+id/tv_item_news_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimens_6"
+                        android:ellipsize="end"
+                        android:src="@mipmap/ic_zhuan_tag"
+                        android:text="转"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimens_12" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_item_news_zan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dimens_6"
+                        android:text="1232个赞"
+                        android:textColor="@color/gray_dack"
+                        android:textSize="@dimen/dimens_12" />
+                    <TextView
+                        android:id="@+id/tv_item_news_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dimens_6"
+                        android:text="2016-05-12"
+                        android:textColor="@color/gray_dack"
+                        android:textSize="@dimen/dimens_12" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_0_5"
+        android:layout_marginLeft="@dimen/dimens_96"
+        android:background="@color/line"/>
+</LinearLayout>

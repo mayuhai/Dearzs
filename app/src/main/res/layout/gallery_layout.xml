@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimens_250"
+    android:clickable="true">
+
+    <com.sofoso.pin9pin.widget.MViewPager
+        android:id="@+id/gallery_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"/>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimens_50"
+        android:layout_height="@dimen/dimens_50"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dimens_8"
+        android:background="@mipmap/ic_launcher">
+
+        <RelativeLayout
+            android:id="@+id/gallery_layout_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/gallery_tv_cur_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_24" />
+
+            <TextView
+                android:id="@+id/gallery_tv_total_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_5"
+                android:layout_toRightOf="@+id/gallery_tv_cur_page"
+                android:text="/"
+                android:textColor="@color/gray_1"
+                android:textSize="@dimen/dimens_10" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
